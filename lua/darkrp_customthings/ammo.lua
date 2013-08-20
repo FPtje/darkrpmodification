@@ -1,8 +1,10 @@
 /*---------------------------------------------------------------------------
-Custom ammo types
+/*---------------------------------------------------------------------------
+Ammo types
+---------------------------------------------------------------------------
+Ammo boxes that can be purchased in the F4 menu.
 
 Add your custom ammo types in this file. Here's the syntax:
-
 GM:AddAmmoType(ammoType, name, model, price, amountGiven, customCheck)
 
 ammoType: The name of the ammo that Garry's mod recognizes
