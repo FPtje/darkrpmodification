@@ -1,0 +1,34 @@
+/*---------------------------------------------------------------------------
+/*---------------------------------------------------------------------------
+DarkRP Modules
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------*/
+
+DarkRP modules are a nice and easy way to modify DarkRP. However, they do require some knowledge about Lua.
+
+/*---------------------------------------------------------------------------
+How to make a DarkRP module
+---------------------------------------------------------------------------*/
+1. Make a folder in here. Don't give it a crazy name. Make it lowercase, no weird characters and no spaces
+2. Make Lua files in it.
+	Files that start with sv_ are automatically run by the server
+	Files that start with cl_ are automatically run by the client. You don't have to worry about AddCSLuaFile
+	Files that start with sh_ are automatically run by the server and the client. You don't have to worry about AddCSLuaFile
+
+
+Have an example of what a module would look like (from the root of this addon)
+
+lua/
+	darkrp_modules/
+		better_hud/
+			sv_sendtexturefiles.lua
+			cl_coolhud.lua
+			cl_elements.lua
+			cl_doorview.lua
+
+
+Here's a list of DarkRP functions that you can call in your module:
+http://wiki.darkrp.com/index.php/Category:Functions
+
+Here's a list of DarkRP hooks:
+http://wiki.darkrp.com/index.php/Category:Hooks
