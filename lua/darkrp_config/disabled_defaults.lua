@@ -1,4 +1,23 @@
 /*---------------------------------------------------------------------------
+/*---------------------------------------------------------------------------
+DarkRP disabled defaults
+---------------------------------------------------------------------------
+
+DarkRP comes with a bunch of default things:
+	- a load of modules
+	- default jobs
+	- shipments and guns
+	- entities (like the money printer)
+	and many more
+
+If you want to disable or replace the default things, you should disable them here
+
+Note: if you want to have e.g. edit the official medic job, you MUST disable the default one in this file!
+You can copy the medic from DarkRP and paste it in darkrp_config/jobs.lua
+---------------------------------------------------------------------------*/
+
+
+/*---------------------------------------------------------------------------
 The list of modules that are disabled. Set to true to disable, false to enable.
 Modules that are not in this list are enabled by default.
 ---------------------------------------------------------------------------*/
@@ -96,7 +115,7 @@ Chat groups (chat with /g)
 Chat groups do not have names, so their index is used instead.
 ---------------------------------------------------------------------------*/
 DarkRP.disabledDefaults["groupchat"] = {
-	[1] = true, -- Police group chat (mayor, cp, chief and/or your custom CP teams)
+	[1] = false, -- Police group chat (mayor, cp, chief and/or your custom CP teams)
 	[2] = false, -- Group chat between gangsters and the mobboss
 }
 
