@@ -256,6 +256,13 @@ GM.Config.chatCommandPrefix = "/"
 GM.Config.F1MenuHelpPage = "http://wiki.darkrp.com/index.php/Main_Page"
 
 
+-- Custom modules in this addon that are disabled.
+GM.Config.DisabledCustomModules = {
+	["hudreplacement"] = false,
+	["extraf4tab"] = false,
+}
+
+
 -- The list of weapons that players are not allowed to drop. Items set to true are not allowed to be dropped
 GM.Config.DisallowDrop = {
 	["arrest_stick"] = true,
