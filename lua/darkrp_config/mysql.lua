@@ -24,10 +24,10 @@ http://www.facepunch.com/showthread.php?t=1220537
 
 
 WHAT TO DO IF YOU CAN'T GET IT TO WORK!
-	- There are always errors on the server, try if you can see those (with HLDS)
+	- There are always errors on the server, try if you can see those (with HLDS/server logs)
 	- the same errors are also in the logs if you can't find the errors on the server.
 		the logs are at garrysmod/data/DarkRP_logs/ on the SERVER!
 		The MySQL lines in the log always precede with "MySQL Error:" (without the quotation marks)
-	- make sure the settings in this file (_MySQL.lua) are correct
-	- make sure the MySQL server is accessible from the outside world
+	- make sure the settings in this file (mysql.lua) are correct
+	- make sure the MySQL server is accessible from the servers IP
 ]]
