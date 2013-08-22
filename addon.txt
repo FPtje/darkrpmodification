@@ -1,0 +1,11 @@
+"AddonInfo"
+{
+	"name"				"DarkRP Modification addon"
+	"version"			"1"
+	"up_date"			"00/00/00"
+	"author_name"			"FPtje"
+	"author_email"			"wiki.darkrp.com"
+	"author_url"			"wiki.darkrp.com"
+	"info"				"A mod with which you can modify DarkRP"
+	"override"			"0"
+}
