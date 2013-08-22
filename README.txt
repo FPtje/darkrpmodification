@@ -1,15 +1,16 @@
 The DarkRP modification addon
 ==================
+for DarkRP 2.5.0 and above.
 
-= Download =
+## Download ##
 Are you looking at this addon from the github web page? There's a "Download zip" button on the right.
 Just download and put in a folder in addons!
 
-= Description =
-You should not edit any of the DarkRP core files (anything in gamemodes/darkrp/*). That is why this addon exists.
+## Description ##
+You should **not edit any of the DarkRP core files** (anything in gamemodes/darkrp/*). That is why this addon exists.
 This addon is made for you to whack in your addons folder and edit until you drop. Have a look around!
 
-= Contents of this addon =
+## Contents of this addon ##
 Everything is in the Lua folder, because that is where the fun happens.
 
 
@@ -34,5 +35,5 @@ lua/darkrp_language/      -- Vous êtes Français? Sind Sie Deutsch? Translate D
 lua/darkrp_modules/       -- Replace a DarkRP module with your own version or script your own mod for DarkRP!
 
 
-Check out the DarkRP wiki for guides, tutorials and documentation!
-http://wiki.darkrp.com/index.php/Main_Page
+#### Check out the DarkRP wiki for guides, tutorials and documentation! ####
+[DarkRP Wiki](http://wiki.darkrp.com/index.php/Main_Page)
