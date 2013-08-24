@@ -5,7 +5,7 @@ Ammo types
 Ammo boxes that can be purchased in the F4 menu.
 
 Add your custom ammo types in this file. Here's the syntax:
-GM:AddAmmoType(ammoType, name, model, price, amountGiven, customCheck)
+GAMEMODE:AddAmmoType(ammoType, name, model, price, amountGiven, customCheck)
 
 ammoType: The name of the ammo that Garry's mod recognizes
 	If you open your SWEP's shared.lua, you can find the ammo name next to
@@ -29,10 +29,10 @@ customCheck: (Optional! Advanced!) a Lua function that describes who can buy the
 Examples are below!
 ---------------------------------------------------------------------------*/
 -- Pistol ammo type. Used by p228, desert eagle and all other pistols
--- Example 1: GM:AddAmmoType("pistol", "Pistol ammo", "models/Items/BoxSRounds.mdl", 30, 24)
+-- Example 1: GAMEMODE:AddAmmoType("pistol", "Pistol ammo", "models/Items/BoxSRounds.mdl", 30, 24)
 
 -- Buckshot ammo, used by the shotguns
--- Example 2: GM:AddAmmoType("buckshot", "Shotgun ammo", "models/Items/BoxBuckshot.mdl", 50, 8)
+-- Example 2: GAMEMODE:AddAmmoType("buckshot", "Shotgun ammo", "models/Items/BoxBuckshot.mdl", 50, 8)
 
 -- Rifle ammo, usually used by assault rifles
--- Example 3: GM:AddAmmoType("smg1", "Rifle ammo", "models/Items/BoxMRounds.mdl", 80, 30)
+-- Example 3: GAMEMODE:AddAmmoType("smg1", "Rifle ammo", "models/Items/BoxMRounds.mdl", 80, 30)
