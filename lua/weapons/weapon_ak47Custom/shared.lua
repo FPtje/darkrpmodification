@@ -3,6 +3,7 @@ Here's an example weapon that you can edit
 ---------------------------------------------------------------------------*/
 if SERVER then
 	AddCSLuaFile("shared.lua")
+	resource.AddFile("vgui/entities/weapon_ak47Custom.vmt")
 end
 
 if CLIENT then
@@ -16,7 +17,7 @@ if CLIENT then
 end
 
 SWEP.Base = "weapon_cs_base2"
-
+SWEP.Icon = "vgui/entities/weapon_ak472"
 SWEP.Spawnable = true
 SWEP.AdminSpawnable = true
 SWEP.Category = "DarkRP (Weapon)"
