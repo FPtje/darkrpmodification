@@ -20,6 +20,7 @@ SWEP.Base = "weapon_cs_base2"
 SWEP.Spawnable = true
 SWEP.AdminSpawnable = true
 SWEP.Category = "DarkRP (Weapon)"
+SWEP.SpawnMenuIcon = "vgui/entities/weapon_ak472"
 
 SWEP.UseHands = true
 SWEP.ViewModel = "models/weapons/cstrike/c_rif_ak47.mdl"
