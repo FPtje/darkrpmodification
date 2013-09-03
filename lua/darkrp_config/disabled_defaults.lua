@@ -32,6 +32,7 @@ DarkRP.disabledDefaults["modules"] = {
 	["playerscale"]      = false,
 	["sleep"]            = false,
 	["voterestrictions"] = true,
+	["fadmin"]           = false,
 }
 
 
