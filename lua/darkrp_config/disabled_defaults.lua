@@ -86,6 +86,24 @@ DarkRP.disabledDefaults["vehicles"] = {
 }
 
 /*---------------------------------------------------------------------------
+Food
+Food is only enabled when hungermod is enabled (see disabled modules above).
+---------------------------------------------------------------------------*/
+DarkRP.disabledDefaults["food"] = {
+	["Banana"]           = false,
+	["Bunch of bananas"] = false,
+	["Melon"]            = false,
+	["Glass bottle"]     = false,
+	["Pop can"]          = false,
+	["Plastic bottle"]   = false,
+	["Milk"]             = false,
+	["Bottle 1"]         = false,
+	["Bottle 2"]         = false,
+	["Bottle 3"]         = false,
+	["Orange"]           = false,
+}
+
+/*---------------------------------------------------------------------------
 Door groups
 ---------------------------------------------------------------------------*/
 DarkRP.disabledDefaults["doorgroups"] = {
