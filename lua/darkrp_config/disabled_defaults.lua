@@ -39,6 +39,10 @@ DarkRP.disabledDefaults["modules"] = {
 
 /*---------------------------------------------------------------------------
 The disabled default jobs. true to disable, false to enable.
+
+NOTE: If you disable a job and remake it, expect things that rely on the job to stop working
+e.g. you disable the gundealer and you make a new job as TEAM_GUN. If you want the shipments/door groups/etc. to
+work for your custom job, remake them to include your job as well.
 ---------------------------------------------------------------------------*/
 DarkRP.disabledDefaults["jobs"] = {
 	["chief"]     = false,
