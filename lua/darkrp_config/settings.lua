@@ -68,6 +68,8 @@ GM.Config.showdeaths 					= true
 GM.Config.deathpov 						= false
 -- decalcleaner - Enable/Disable clearing ever players decals.
 GM.Config.decalcleaner 					= false
+-- disallowClientsideScripts - Clientside scripts can be very useful for customizing the HUD or to aid in building. This option bans those scripts.
+GM.Config.disallowClientsideScripts		= false
 -- doorwarrants - Enable/disable Warrant requirement to enter property.
 GM.Config.doorwarrants 					= true
 -- dropmoneyondeath - Enable/disable whether people drop money on death.
@@ -78,6 +80,8 @@ GM.Config.droppocketarrest 				= false
 GM.Config.droppocketdeath 				= true
 -- dropweapondeath - Enable/disable whether people drop their current weapon when they die.
 GM.Config.dropweapondeath 				= false
+-- Whether players can drop the weapons they spawn with
+GM.Config.dropspawnedweapons			= true
 -- dynamicvoice - Enable/disable whether only people in the same room as you can hear your mic.
 GM.Config.dynamicvoice 					= true
 -- earthquakes - Enable/disable earthquakes.
@@ -263,13 +267,11 @@ GM.Config.DefaultPlayerGroups = {
 	["STEAM_0:0:11111111"] = "admin",
 }
 
-
 -- Custom modules in this addon that are disabled.
 GM.Config.DisabledCustomModules = {
-	["hudreplacement"] = false,
-	["extraf4tab"] = false,
+       ["hudreplacement"] = false,
+       ["extraf4tab"] = false,
 }
-
 
 -- The list of weapons that players are not allowed to drop. Items set to true are not allowed to be dropped
 GM.Config.DisallowDrop = {
@@ -320,6 +322,30 @@ GM.Config.PocketBlacklist = {
 	["gunlab"] = true,
 }
 
+-- These weapons are classed as 'legal' in the weapon checker and are not stripped when confiscating weapons.
+GM.Config.noStripWeapons = {
+	["weapon_physgun"] = true,
+	["weapon_physcannon"] = true,
+	["keys"] = true,
+	["gmod_camera"] = true,
+	["gmod_tool"] = true,
+	["weaponchecker"] = true,
+	["med_kit"] = true,
+	["pocket"] = true,
+}
+
+-- Properties set to true are allowed to be used. Values set to false or are missing from this list are blocked.
+GM.Config.allowedProperties = {
+	remover = true,
+	ignite = false,
+	extinguish = true,
+	keepupright = true,
+	gravity = true,
+	collision = true,
+	skin = true,
+	bodygroups = true,
+}
+
 /*---------------------------------------------------------------------------
 F4 menu
 ---------------------------------------------------------------------------*/
@@ -356,10 +382,6 @@ GM.Config.hitCustomerCooldown = 240
 /*---------------------------------------------------------------------------
 Hungermod module
 ---------------------------------------------------------------------------*/
--- foodspawn - Whether players(non-cooks) can spawn food props or not
-GM.Config.foodspawn = true
--- foodcost <Amount> - Set food cost
-GM.Config.foodcost = 15
 -- hungerspeed <Amount> - Set the rate at which players will become hungry (2 is the default)
 GM.Config.hungerspeed = 2
 -- starverate <Amount> - How much health that is taken away every second the player is starving  (3 is the default)
