@@ -39,6 +39,10 @@ DarkRP.disabledDefaults["modules"] = {
 
 /*---------------------------------------------------------------------------
 The disabled default jobs. true to disable, false to enable.
+
+NOTE: If you disable a job and remake it, expect things that rely on the job to stop working
+e.g. you disable the gundealer and you make a new job as TEAM_GUN. If you want the shipments/door groups/etc. to
+work for your custom job, remake them to include your job as well.
 ---------------------------------------------------------------------------*/
 DarkRP.disabledDefaults["jobs"] = {
 	["chief"]     = false,
@@ -83,6 +87,24 @@ Vehicles
 ---------------------------------------------------------------------------*/
 DarkRP.disabledDefaults["vehicles"] = {
 
+}
+
+/*---------------------------------------------------------------------------
+Food
+Food is only enabled when hungermod is enabled (see disabled modules above).
+---------------------------------------------------------------------------*/
+DarkRP.disabledDefaults["food"] = {
+	["Banana"]           = false,
+	["Bunch of bananas"] = false,
+	["Melon"]            = false,
+	["Glass bottle"]     = false,
+	["Pop can"]          = false,
+	["Plastic bottle"]   = false,
+	["Milk"]             = false,
+	["Bottle 1"]         = false,
+	["Bottle 2"]         = false,
+	["Bottle 3"]         = false,
+	["Orange"]           = false,
 }
 
 /*---------------------------------------------------------------------------
