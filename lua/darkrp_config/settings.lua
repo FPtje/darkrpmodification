@@ -68,6 +68,8 @@ GM.Config.showdeaths 					= true
 GM.Config.deathpov 						= false
 -- decalcleaner - Enable/Disable clearing ever players decals.
 GM.Config.decalcleaner 					= false
+-- disallowClientsideScripts - Clientside scripts can be very useful for customizing the HUD or to aid in building. This option bans those scripts.
+GM.Config.disallowClientsideScripts		= false
 -- doorwarrants - Enable/disable Warrant requirement to enter property.
 GM.Config.doorwarrants 					= true
 -- dropmoneyondeath - Enable/disable whether people drop money on death.
@@ -78,12 +80,12 @@ GM.Config.droppocketarrest 				= false
 GM.Config.droppocketdeath 				= true
 -- dropweapondeath - Enable/disable whether people drop their current weapon when they die.
 GM.Config.dropweapondeath 				= false
+-- Whether players can drop the weapons they spawn with
+GM.Config.dropspawnedweapons			= true
 -- dynamicvoice - Enable/disable whether only people in the same room as you can hear your mic.
 GM.Config.dynamicvoice 					= true
 -- earthquakes - Enable/disable earthquakes.
 GM.Config.earthquakes 					= false
--- enablebuyhealth - Enable/disable buyhealth
-GM.Config.enablebuyhealth 				= true
 -- enablebuypistol - Turn /buy on of off.
 GM.Config.enablebuypistol 				= true
 -- enforceplayermodel - Whether or not to force players to use their role-defined character models.
@@ -172,8 +174,6 @@ GM.Config.demotetime					= 120
 GM.Config.doorcost						= 30
 -- entremovedelay - how long to wait before removing a bought entity after disconnect.
 GM.Config.entremovedelay				= 0
--- healthcost - Sets the cost of health.
-GM.Config.healthcost					= 60
 -- jailtimer - Sets the jailtimer. (in seconds)
 GM.Config.jailtimer						= 120
 -- maxdoors - Sets the max amount of doors one can own.
@@ -194,6 +194,8 @@ GM.Config.maxvehicles					= 5
 GM.Config.microwavefoodcost				= 30
 -- minlotterycost - Minimum payment the mayor can set to join a lottery.
 GM.Config.minlotterycost				= 30
+-- Money packets will get removed if they don't get picked up after a while. Set to 0 to disable
+GM.Config.moneyRemoveTime				= 600
 -- mprintamount - Value of the money printed by the money printer.
 GM.Config.mprintamount					= 250
 -- normalsalary - Sets the starting salary for newly joined players.
@@ -256,20 +258,19 @@ GM.Config.DarkRPSkin = "DarkRP"
 GM.Config.currency = "$"
 GM.Config.chatCommandPrefix = "/"
 GM.Config.F1MenuHelpPage = "http://wiki.darkrp.com/index.php/Main_Page"
+GM.Config.F1MenuHelpPageTitle = "Wiki page"
 
-
+-- Put Steam ID's and ranks in this list, and the players will have that rank when they join.
 GM.Config.DefaultPlayerGroups = {
 	["STEAM_0:0:00000000"] = "superadmin",
 	["STEAM_0:0:11111111"] = "admin",
 }
 
-
 -- Custom modules in this addon that are disabled.
 GM.Config.DisabledCustomModules = {
-	["hudreplacement"] = false,
-	["extraf4tab"] = false,
+       ["hudreplacement"] = false,
+       ["extraf4tab"] = false,
 }
-
 
 -- The list of weapons that players are not allowed to drop. Items set to true are not allowed to be dropped
 GM.Config.DisallowDrop = {
@@ -289,6 +290,7 @@ GM.Config.DisallowDrop = {
 	["weaponchecker"] = true
 }
 
+-- The list of weapons people spawn with
 GM.Config.DefaultWeapons = {
 	"keys",
 	"weapon_physcannon",
@@ -296,6 +298,12 @@ GM.Config.DefaultWeapons = {
 	"gmod_tool",
 	"pocket",
 	"weapon_physgun"
+}
+
+-- The list of weapons admins spawn with, in addition to the normal weapons
+--
+GM.Config.AdminWeapons = {
+	"weapon_keypadchecker"
 }
 
 -- These are the default laws, they're unchangeable in-game.
