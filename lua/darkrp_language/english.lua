@@ -521,4 +521,4 @@ local my_language = {
 -- If you want to know what your language code is, open GMod, select a language at the bottom right
 -- then enter gmod_language in console. It will show you the code.
 -- Make sure language code is a valid entry for the convar gmod_language.
-DarkRP.addLanguage("LANGUAGE CODE HERE", my_language)
+DarkRP.addLanguage("en", my_language)
