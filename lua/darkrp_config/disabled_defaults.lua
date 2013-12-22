@@ -151,3 +151,13 @@ set to true to disable
 DarkRP.disabledDefaults["hitmen"] = {
 	["mobboss"] = false,
 }
+
+/*---------------------------------------------------------------------------
+Demote groups
+When anyone is demote from any job in this group, they will be temporarily banned
+from every job in the group
+---------------------------------------------------------------------------*/
+DarkRP.disabledDefaults["demotegroups"] = {
+	["Cops"]		 = false,
+	["Gangsters"]	 = false,
+}
