@@ -10,7 +10,7 @@ Note: If you want to edit a default DarkRP job, first disable it in darkrp_confi
 	Once you've done that, copy and paste the job to this file and edit it.
 
 The default jobs can be found here:
-<TODO: INSERT URL HERE>
+https://github.com/FPtje/DarkRP/blob/master/gamemode/config/jobrelated.lua
 
 For examples and explanation please visit this wiki page:
 http://wiki.darkrp.com/index.php/DarkRP:CustomJobFields

@@ -10,7 +10,7 @@ Note: If you want to edit a default DarkRP entity, first disable it in darkrp_co
 	Once you've done that, copy and paste the entity to this file and edit it.
 
 The default entities can be found here:
-<TODO: INSERT URL HERE>
+https://github.com/FPtje/DarkRP/blob/master/gamemode/config/addentities.lua#L111
 
 Add entities under the following line:
 ---------------------------------------------------------------------------*/

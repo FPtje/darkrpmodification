@@ -13,7 +13,7 @@ Note: If you want to edit a default DarkRP food, first disable it in darkrp_conf
 	Once you've done that, copy and paste the food item to this file and edit it.
 
 The default food can be found here:
-<TODO: INSERT URL HERE>
+https://github.com/FPtje/DarkRP/blob/master/gamemode/modules/hungermod/sh_init.lua#L33
 
 Add food under the following line:
 ---------------------------------------------------------------------------*/
