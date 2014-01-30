@@ -106,6 +106,8 @@ GM.Config.logging 						= true
 GM.Config.lottery 						= true
 -- showname - Whether or not to display a player's name above their head in-game.
 GM.Config.showname 						= true
+-- showname - Whether or not to display a player's health above their head in-game.
+GM.Config.showhealth					= true
 -- needwantedforarrest - Enable/disable Cops can only arrest wanted people.
 GM.Config.needwantedforarrest 			= false
 -- noguns - Enabling this feature bans Guns and Gun Dealers.
@@ -308,8 +310,7 @@ GM.Config.DefaultWeapons = {
 	"weapon_physgun"
 }
 
--- The list of weapons admins spawn with, in addition to the normal weapons
---
+-- The list of weapons admins spawn with, in addition to the default weapons, a job's weapons and GM.Config.AdminCopWeapons
 GM.Config.AdminWeapons = {
 	"weapon_keypadchecker"
 }
@@ -337,15 +338,12 @@ GM.Config.PocketBlacklist = {
 }
 
 -- These weapons are classed as 'legal' in the weapon checker and are not stripped when confiscating weapons.
+-- This setting is used IN ADDITION to GM.Config.weaponCheckerHideDefault and GM.Config.weaponCheckerHideNoLicense
+-- You should use the former if you want to class the default weapons (GM.Config.DefaultWeapons and, if admin, GM.Config.AdminWeapons) and a player's job weapons as legal.
+-- The latter takes GM.NoLicense weapons as legal (see licenseweapons.lua)
+-- The format of this config is similar to GM.Config.DisallowDrop
 GM.Config.noStripWeapons = {
-	["weapon_physgun"] = true,
-	["weapon_physcannon"] = true,
-	["keys"] = true,
-	["gmod_camera"] = true,
-	["gmod_tool"] = true,
-	["weaponchecker"] = true,
-	["med_kit"] = true,
-	["pocket"] = true,
+	
 }
 
 -- Properties set to true are allowed to be used. Values set to false or are missing from this list are blocked.
