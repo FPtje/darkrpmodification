@@ -33,7 +33,6 @@ local my_language = {
 
 	-- F1 menu
 	f1ChatCommandTitle = "Chat commands",
-	f1WikiTitle = "Wiki page",
 	f1Search = "Search...",
 
 	-- Money things:
@@ -169,7 +168,7 @@ local my_language = {
 	gun_lab = "Gun Lab",
 	gun = "gun",
 	microwave = "Microwave",
-	food = "food",
+	food = "Food",
 	money_printer = "Money Printer",
 
 	sign_this_letter = "Sign this letter",
@@ -210,8 +209,7 @@ local my_language = {
 	keypad_off = "OFF",
 	seconds = "seconds",
 
-	persons_weapons = "%s's weapons:",
-	has_no_weapons = "%s has no weapons.",
+	persons_weapons = "%s's illegal weapons:",
 	returned_persons_weapons = "Returned %s's confiscated weapons.",
 	no_weapons_confiscated = "%s had no weapons confiscated!",
 	no_illegal_weapons = "%s had no illegal weapons.",
@@ -243,7 +241,7 @@ local my_language = {
 	perform_your_action = "perform your action",
 	talk_to_your_group = "talk to your group",
 
-	channel_set_to_x = "Channgel set to %s!",
+	channel_set_to_x = "Channel set to %s!",
 
 	-- Notifies
 	disabled = "%s is disabled! %s",
@@ -318,9 +316,11 @@ local my_language = {
 	vote_alone = "You have won the vote since you are alone in the server.",
 	you_cannot_vote = "You cannot vote!",
 	x_cancelled_vote = "%s cancelled the last vote.",
+	cant_cancel_vote = "Could not cancel the last vote as there was no last vote to cancel!",
 	jail_punishment = "Punishment for disconnecting! Jailed for: %d seconds.",
 	admin_only = "Admin only!", -- When doing /addjailpos
 	chief_or = "Chief or ",-- When doing /addjailpos
+	frozen = "Frozen.",
 
 	dead_in_jail = "You now are dead until your jail time is up!",
 	died_in_jail = "%s has died in jail!",
@@ -357,6 +357,8 @@ local my_language = {
 	job_doesnt_require_vote_currently = "This job does not require a vote at the moment!",
 
 	x_made_you_a_y = "%s has made you a %s!",
+
+	cmd_cant_be_run_server_console = "This command cannot be run from the server console.",
 
 	-- The lottery
 	lottery_started = "There is a lottery! Participate for %s%d?",
