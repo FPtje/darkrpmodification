@@ -33,7 +33,6 @@ DarkRP.disabledDefaults["modules"] = {
 	["hungermod"]        = true,
 	["playerscale"]      = false,
 	["sleep"]            = false,
-	["voterestrictions"] = true,
 	["fadmin"]           = false,
 }
 
