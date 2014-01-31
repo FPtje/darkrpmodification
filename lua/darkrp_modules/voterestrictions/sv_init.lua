@@ -5,7 +5,7 @@ Vote regulations
 - Criminal jobs can't vote for government related things
 - Civilians can vote for anything
 
-Assumes the jobs are unedited in shared.lua, add them in the tables below to add your own jobs
+Assumes the jobs are unedited in jobs.lua, add them in the tables below to add your own jobs
 ---------------------------------------------------------------------------*/
 
 if true then return end -- REMOVE THIS LINE TO ENABLE THE MODULE
