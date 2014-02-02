@@ -1,5 +1,4 @@
 /*---------------------------------------------------------------------------
-/*---------------------------------------------------------------------------
 Demote groups
 ---------------------------------------------------------------------------
 When a chief of police gets demoted you don't want them to be banned from becoming civil protection officer as well.
