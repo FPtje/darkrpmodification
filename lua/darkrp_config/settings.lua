@@ -55,6 +55,8 @@ GM.Config.copscanunfreeze 				= true
 GM.Config.copscanunweld 				= false
 -- cpcanarrestcp - Allow/Disallow CPs to arrest other CPs.
 GM.Config.cpcanarrestcp 				= true
+-- currencyLeft - The position of the currency symbol. true for left, false for right.
+GM.Config.currencyLeft					= true
 -- customjobs - Enable/disable the /job command (personalized job names).
 GM.Config.customjobs 					= true
 -- customspawns - Enable/disable whether custom spawns should be used.
@@ -221,6 +223,8 @@ GM.Config.propcost						= 10
 GM.Config.quakechance					= 4000
 -- respawntime - Minimum amount of seconds a player has to wait before respawning.
 GM.Config.respawntime					= 1
+-- changejobtime - Minimum amount of seconds a player has to wait before changing job.
+GM.Config.changejobtime					= 10
 -- runspeed - Sets the max running speed.
 GM.Config.runspeed						= 240
 -- runspeed - Sets the max running speed for CP teams
