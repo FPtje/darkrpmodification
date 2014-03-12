@@ -352,7 +352,7 @@ GM.Config.noStripWeapons = {
 -- Specific, class only, entities listed here will not be removed if the player changes class.
 -- Only occurs if removeclassitems is set to true
 GM.Config.ignoreClassItem = {
-	
+	["money_printer"] = true
 }
 
 -- Properties set to true are allowed to be used. Values set to false or are missing from this list are blocked.
