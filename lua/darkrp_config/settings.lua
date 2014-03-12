@@ -349,6 +349,12 @@ GM.Config.noStripWeapons = {
 	
 }
 
+-- Specific, class only, entities listed here will not be removed if the player changes class.
+-- Only occurs if removeclassitems is set to true
+GM.Config.ignoreClassItem = {
+	
+}
+
 -- Properties set to true are allowed to be used. Values set to false or are missing from this list are blocked.
 GM.Config.allowedProperties = {
 	remover = true,
