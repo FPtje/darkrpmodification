@@ -19,8 +19,8 @@ RP_MySQLConfig.Database_port = 3306 -- This is the port of the MySQL server. Aga
 --[[
 MANUAL!
 HOW TO USE MySQL FOR DARKRP!
-Download andyvincent's/Drakehawke's gm_MySQL OO module and read the guide here:
-http://www.facepunch.com/showthread.php?t=1220537
+Download andyvincent's/Drakehawke's/KingofBeast's gm_MySQL OO module and read the guide here:
+http://facepunch.com/showthread.php?t=1357773
 
 
 WHAT TO DO IF YOU CAN'T GET IT TO WORK!
