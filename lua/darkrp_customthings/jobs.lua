@@ -17,7 +17,10 @@ http://wiki.darkrp.com/index.php/DarkRP:CustomJobFields
 
 Add jobs under the following line:
 ---------------------------------------------------------------------------*/
-
+//Created using DeaDeye's Classmaker
+TEAM_DONATOR = AddExtraTeam("Anonymouse", Color(255, 255, 255, 255), "models/player/artic.mdl", [[Du er anonymous og du kan hacmke folk, spørg en
+Admin om du ikke lige kan få nogen combine
+soldater. Og hacke dem som dine soldater.]], {}, "donator", 2, 150, 0, true, 
 
 
 
