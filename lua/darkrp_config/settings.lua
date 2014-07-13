@@ -129,6 +129,8 @@ GM.Config.restrictallteams 				= false
 GM.Config.restrictbuypistol 			= false
 -- restrictdrop - Enable/disable restricting the weapons players can drop. Setting this to true disallows weapons from shipments from being dropped
 GM.Config.restrictdrop 					= false
+-- shouldResetLaws - Enable/Disable resetting the laws back to the default law set when the mayor changes
+GM.Config.shouldResetLaws               = false
 -- strictsuicide - Whether or not players should spawn where they suicided
 GM.Config.strictsuicide 				= false
 -- telefromjail - Enable/disable teleporting from jail.
@@ -143,8 +145,6 @@ GM.Config.voiceradius 					= true
 GM.Config.wallettax 					= false
 -- wantedsuicide - Enable/Disable suiciding while you are wanted by the police.
 GM.Config.wantedsuicide 				= false
--- showcrosshairs - Enable/disable crosshair visibility
-GM.Config.showcrosshairs				= true
 -- realisticfalldamage - Enable/Disable dynamic fall damage. Setting mp_falldamage to 1 will over-ride this.
 GM.Config.realisticfalldamage			= true
 -- printeroverheat - Can the default money printer overheat on its own?
@@ -266,6 +266,8 @@ Other settings
 -- The classname of money packets. Use this to create your own money entity!
 -- Note: the money packet must support the "Setamount" method (or the amount DTVar)
 GM.Config.MoneyClass = "spawned_money"
+-- In case you do wish to keep the default money, but change the model, this option is the way to go:
+GM.Config.moneyModel = "models/props/cs_assault/money.mdl"
 
 -- The skin DarkRP uses. Set to "default" to use the GMod default derma theme
 GM.Config.DarkRPSkin = "DarkRP"
@@ -385,7 +387,10 @@ GM.Config.hideTeamUnbuyable = true
 /*---------------------------------------------------------------------------
 AFK module
 ---------------------------------------------------------------------------*/
+-- The time of inactivity before being demoted
 GM.Config.afkdemotetime = 600
+-- Prevent people from spamming AFK
+GM.Config.AFKDelay = 300
 
 /*---------------------------------------------------------------------------
 Hitmenu module
