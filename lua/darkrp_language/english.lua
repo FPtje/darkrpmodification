@@ -71,6 +71,7 @@ local my_language = {
 	owner_poor = "The %s owner is too poor to subsidize this sale!",
 
 	-- Police
+	Wanted_text = "Wanted!",
 	wanted = "Wanted by Police!\nReason: %s",
 	youre_arrested = "You have been arrested for %d seconds!",
 	youre_arrested_by = "You have been arrested by %s.",
@@ -195,7 +196,7 @@ local my_language = {
 	pocket_no_items = "Your pocket contains no items.",
 	drop_item = "Drop item",
 
-	bonus_destroying_entity = "bonus for destroying this illegal entiy.",
+	bonus_destroying_entity = "destroying this illegal entity.",
 
 	switched_burst = "Switched to burst-fire mode.",
 	switched_fully_auto = "Switched to fully automatic fire mode.",
@@ -251,7 +252,11 @@ local my_language = {
 	channel_set_to_x = "Channel set to %s!",
 
 	-- Notifies
-	disabled = "%s is disabled! %s",
+	disabled = "%s has been disabled! %s",
+	gm_spawnvehicle = "The spawning of vehicles",
+	gm_spawnsent = "The spawning of scripted entities (SENTs)",
+	gm_spawnnpc = "The spawning of Non-Player Characters (NPCs)",
+	see_settings = "Please see the DarkRP settings.",
 	limit = "You have reached the %s limit!",
 	have_to_wait = "You need to wait another %d seconds before using %s!",
 	must_be_looking_at = "You need to be looking at a %s!",
@@ -263,6 +268,7 @@ local my_language = {
 	cleaned_up = "Your %s were cleaned up.",
 	you_bought_x = "You have bought %s for %s%d.", -- backwards compatibility
 	you_bought = "You have bought %s for %s.",
+	you_received_x = "You have received %s for %s.",
 	you_received_x = "You have received %s for %s.",
 
 	created_first_jailpos = "You have created the first jail position!",
@@ -504,6 +510,7 @@ local my_language = {
 	laws_of_the_land = "LAWS OF THE LAND",
 	law_added = "Law added.",
 	law_removed = "Law removed.",
+	law_reset = "Laws reset.",
 	law_too_short = "Law too short.",
 	laws_full = "The laws are full.",
 	default_law_change_denied = "You are not allowed to change the default laws.",
@@ -522,17 +529,6 @@ local my_language = {
 	Tick the weapons people should be able to get WITHOUT a license!
 	]],
 	license_tab_other_weapons = "Other weapons:",
-
-	zombie_spawn_removed = "You have removed this zombie spawn.",
-	zombie_spawn = "Zombie Spawn",
-	zombie_disabled = "Zombies are now disabled.",
-	zombie_enabled = "Zombies are now enabled.",
-	zombie_maxset = "Maximum amount of zombies is now set to %s",
-	zombie_spawn_added = "You have added a zombie spawn.",
-	zombie_spawn_not_exist = "Zombie Spawn %s does not exist.",
-	zombie_leaving = "Zombies are leaving.",
-	zombie_approaching = "WARNING: Zombies are approaching!",
-	zombie_toggled = "Zombies toggled.",
 }
 
 -- The language code is usually (but not always) a two-letter code. The default language is "en".
