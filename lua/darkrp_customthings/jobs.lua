@@ -17,7 +17,7 @@ http://wiki.darkrp.com/index.php/DarkRP:CustomJobFields
 
 Add jobs under the following line:
 ---------------------------------------------------------------------------*/
-Peasant = DarkRP.createJob("Peasant", {
+Peasant = DarkRP.createJob("TEAM_PEASANT", {
         color = Color(255, 255, 255, 255),
         model = {
                 "models/player/Group03/Female_01.mdl",
@@ -41,21 +41,20 @@ Peasant = DarkRP.createJob("Peasant", {
         cook = false,
         hobo = false,
 
-        CanPlayerSuicide = function(ply) return false end,
-        PlayerCanPickupWeapon = function(ply, weapon) return true end,
-        PlayerDeath = function(ply, weapon, killer) end,
-        PlayerLoadout = function(ply) return true end,
-        PlayerSelectSpawn = function(ply, spawn) end,
-        PlayerSetModel = function(ply) return "models/player/Group03/Female_02.mdl" end,
-        PlayerSpawn = function(ply) end,
-        PlayerSpawnProp = function(ply, model) end,
-        RequiresVote = function(ply, job) for k,v in pairs(player.GetAll()) do if IsValid(v) and v:IsAdmin() then return false end end return true end, -- People need to make a vote when there is no admin around
+        CanPlayerSuicide = function(ply) return true end, -- allows players to commit suicide, set to true
+        PlayerCanPickupWeapon = function(ply, weapon) return true end, -- allows the player to pick up weapons
+        PlayerDeath = function(ply, weapon, killer) end, -- Determines what shows when the player dies. shows player, the weapon and who killed them
+        PlayerLoadout = function(ply) return true end, -- prevents player from getting default weapons when set to true
+        PlayerSelectSpawn = function(ply, spawn) end, -- determines where player will spawn
+        PlayerSpawn = function(ply) end, -- not needed, nothing special should happen when this job spawns
+        RequiresVote = false,
+        -- keeping this function for later --RequiresVote = function(ply, job) for k,v in pairs(player.GetAll()) do if IsValid(v) and v:IsAdmin() then return false end end return true end, -- People need to make a vote when there is no admin around
         ShowSpare1 = function(ply) end,
         ShowSpare2 = function(ply) end,
         canStartVote = function(ply) return ply:Distance(SomeNPC) < 200 end,
         canStartVoteReason = "Must be close to some NPC",
         buttonColor = Color(255, 255, 255, 255), -- The color of the button in the F4 menu
-        label = "Super job", -- Optional: the text on the button in the F4 menu
+        label = "I'm not sure where this will appear, or how it will look.", -- Optional: the text on the button in the F4 menu
         ammo = {
                 ["pistol"] = 60,
         },
@@ -70,7 +69,7 @@ Peasant = DarkRP.createJob("Peasant", {
 /*---------------------------------------------------------------------------
 Define which team joining players spawn into and what team you change to if demoted
 ---------------------------------------------------------------------------*/
-GAMEMODE.DefaultTeam = TEAM_CITIZEN
+GAMEMODE.DefaultTeam = TEAM_PEASANT
 
 
 /*---------------------------------------------------------------------------
