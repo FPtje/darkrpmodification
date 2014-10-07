@@ -17,7 +17,7 @@ http://wiki.darkrp.com/index.php/DarkRP:CustomJobFields
 
 Add jobs under the following line:
 ---------------------------------------------------------------------------*/
-Peasant = DarkRP.createJob("TEAM_PEASANT", {
+Peasant = DarkRP.createJob("Pesant", {
         color = Color(255, 255, 255, 255),
         model = {
                 "models/player/Group03/Female_01.mdl",
@@ -27,7 +27,7 @@ Peasant = DarkRP.createJob("TEAM_PEASANT", {
         weapons = {""},
         command = "Peasant",
         max = 15,
-        salary = 45,
+        salary = 5,
         admin = 0,
         vote = false,
         hasLicense = false,
@@ -54,13 +54,17 @@ Peasant = DarkRP.createJob("TEAM_PEASANT", {
         canStartVote = function(ply) return ply:Distance(SomeNPC) < 200 end,
         canStartVoteReason = "Must be close to some NPC",
         buttonColor = Color(255, 255, 255, 255), -- The color of the button in the F4 menu
-        label = "I'm not sure where this will appear, or how it will look.", -- Optional: the text on the button in the F4 menu
+        label = "Peasant", -- Optional: the text on the button in the F4 menu
         ammo = {
                 ["pistol"] = 60,
         },
 })
 
+/* List of classes needed:
 
+Soldier, king, knight, hitman, assassin, rogue, theif, swordsman, archer, monk, priest, tax collector, and whatever we can think of
+
+*/
 
 
 
@@ -69,7 +73,7 @@ Peasant = DarkRP.createJob("TEAM_PEASANT", {
 /*---------------------------------------------------------------------------
 Define which team joining players spawn into and what team you change to if demoted
 ---------------------------------------------------------------------------*/
-GAMEMODE.DefaultTeam = TEAM_PEASANT
+GAMEMODE.DefaultTeam = Peasant
 
 
 /*---------------------------------------------------------------------------
