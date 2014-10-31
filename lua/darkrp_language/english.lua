@@ -269,7 +269,6 @@ local my_language = {
 	you_bought_x = "You have bought %s for %s%d.", -- backwards compatibility
 	you_bought = "You have bought %s for %s.",
 	you_received_x = "You have received %s for %s.",
-	you_received_x = "You have received %s for %s.",
 
 	created_first_jailpos = "You have created the first jail position!",
 	added_jailpos = "You have added one extra jail position!",
@@ -529,6 +528,17 @@ local my_language = {
 	Tick the weapons people should be able to get WITHOUT a license!
 	]],
 	license_tab_other_weapons = "Other weapons:",
+
+	zombie_spawn_removed = "You have removed this zombie spawn.",
+	zombie_spawn = "Zombie Spawn",
+	zombie_disabled = "Zombies are now disabled.",
+	zombie_enabled = "Zombies are now enabled.",
+	zombie_maxset = "Maximum amount of zombies is now set to %s",
+	zombie_spawn_added = "You have added a zombie spawn.",
+	zombie_spawn_not_exist = "Zombie Spawn %s does not exist.",
+	zombie_leaving = "Zombies are leaving.",
+	zombie_approaching = "WARNING: Zombies are approaching!",
+	zombie_toggled = "Zombies toggled.",
 }
 
 -- The language code is usually (but not always) a two-letter code. The default language is "en".

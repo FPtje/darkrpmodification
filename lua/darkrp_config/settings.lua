@@ -1,3 +1,15 @@
+/*---------------------------------------------------------------------------
+DarkRP config settings
+---------------------------------------------------------------------------
+
+This is the settings file of DarkRP. Every DarkRP setting is listed here.
+
+Warning:
+If this file is missing settings (because of e.g. an update), DarkRP will assume default values for these settings.
+You need not worry about updating this file. If a new setting is added you can manually add them to this file.
+---------------------------------------------------------------------------*/
+
+
 /*
 Toggle settings
 Set to true or false
@@ -272,6 +284,12 @@ GM.Config.DefaultPlayerGroups = {
 	["STEAM_0:0:11111111"] = "admin",
 }
 
+-- Custom modules in this addon that are disabled.
+GM.Config.DisabledCustomModules = {
+       ["hudreplacement"] = false,
+       ["extraf4tab"] = false,
+}
+
 -- The list of weapons that players are not allowed to drop. Items set to true are not allowed to be dropped
 GM.Config.DisallowDrop = {
 	["arrest_stick"] = true,
@@ -400,6 +418,3 @@ Hungermod module
 GM.Config.hungerspeed = 2
 -- starverate <Amount> - How much health that is taken away every second the player is starving  (3 is the default)
 GM.Config.starverate = 3
-
--- Empty disabled modules set
-GM.Config.DisabledCustomModules = {}
