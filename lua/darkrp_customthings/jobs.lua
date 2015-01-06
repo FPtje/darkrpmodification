@@ -43,5 +43,6 @@ GAMEMODE.CivilProtection = {
 
 /*---------------------------------------------------------------------------
 Jobs that are hitmen (enables the hitman menu)
+For multiple hitman jobs, simply add another line.
 ---------------------------------------------------------------------------*/
 DarkRP.addHitmanTeam(TEAM_MOB)
