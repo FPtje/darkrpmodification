@@ -8,7 +8,7 @@ Vote regulations
 Assumes the jobs are unedited in jobs.lua, add them in the tables below to add your own jobs
 ---------------------------------------------------------------------------*/
 
---if true then return end -- REMOVE THIS LINE TO ENABLE THE MODULE
+if true then return end -- REMOVE THIS LINE TO ENABLE THE MODULE
 local GovernmentJobs, GangsterJobs
 
 local function config()
