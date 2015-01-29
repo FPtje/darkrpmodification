@@ -1,4 +1,4 @@
-/*---------------------------------------------------------------------------
+--[[---------------------------------------------------------------------------
 Vote regulations
 - hobo's can't vote for anything (no voting rights for hobo's!)
 - Government jobs can't vote for gangster related things
@@ -6,7 +6,7 @@ Vote regulations
 - Civilians can vote for anything
 
 Assumes the jobs are unedited in jobs.lua, add them in the tables below to add your own jobs
----------------------------------------------------------------------------*/
+---------------------------------------------------------------------------]]
 
 if true then return end -- REMOVE THIS LINE TO ENABLE THE MODULE
 local GovernmentJobs, GangsterJobs
