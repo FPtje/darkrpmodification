@@ -1,9 +1,7 @@
 --[[---------------------------------------------------------------------------
 Here's an example weapon that you can edit
 ---------------------------------------------------------------------------]]
-if SERVER then
-	AddCSLuaFile("shared.lua")
-end
+AddCSLuaFile()
 
 if CLIENT then
 	SWEP.PrintName = "AK47"
@@ -12,7 +10,7 @@ if CLIENT then
 	SWEP.SlotPos = 0
 	SWEP.IconLetter = "b"
 
-	killicon.AddFont("weapon_ak47", "CSKillIcons", SWEP.IconLetter, Color(255, 80, 0, 255))
+	killicon.AddFont("weapon_ak47custom", "CSKillIcons", SWEP.IconLetter, Color(255, 80, 0, 255))
 end
 
 SWEP.Base = "weapon_cs_base2"
