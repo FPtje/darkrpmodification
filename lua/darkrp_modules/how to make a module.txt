@@ -32,3 +32,26 @@ http://wiki.darkrp.com/index.php/Category:Functions
 
 Here's a list of DarkRP hooks:
 http://wiki.darkrp.com/index.php/Category:Hooks
+
+--[[---------------------------------------------------------------------------
+Autorefresh and simplerr
+---------------------------------------------------------------------------]]
+By default there's a mechanism that helps you when there's an error. This mechanism is called "simplerr".
+Whenever something goes wrong in your DarkRP module, simplerr will explain the problem as clearly as possible.
+This has ONE downside: the error translation comes at the cost of autorefresh. This may be annoying when developing the module.
+One can disable simplerr for a single file by putting the following special text in a comment at the top of the file (or anywhere else):
+
+#NoSimplerr#
+
+Note: That includes the two '#' signs. Also, it's case sensitive. Remember the capital N, capital S and the double 'r' in #NoSimplerr#.
+Note: It must be in a comment or you'll get a syntax error.
+
+-------------- IMPORTANT --------------
+- DO NOT use it if you're not an experienced scripter.
+- REMOVE IT when you release your module. That is VERY IMPORTANT!
+    Simplerr was made for developers like you, but even moreso for end users.
+    If your module has an error, simplerr tells the end user who to report bugs to.
+    If your module has any kind of configuration, simplerr will tell people what's wrong when they make mistakes.
+        And believe me, they make mistakes A LOT and they DON'T know how to solve them.
+- REMOVE IT when you have errors you don't understand. Simplerr will try to explain them the next time they happen.
+    This may require a full server restart.
