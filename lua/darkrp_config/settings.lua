@@ -19,6 +19,8 @@ Set to true or false
 GM.Config.voice3D						= true
 -- AdminsCopWeapons - Enable/disable admins spawning with cop weapons
 GM.Config.AdminsCopWeapons 				= true
+-- adminBypassJobCustomCheck - Enable/disable whether an admin can force set a job with whenever customCheck returns false
+GM.Config.adminBypassJobRestrictions	= true
 -- allow people getting their own custom jobs
 GM.Config.allowjobswitch 				= true
 -- allowrpnames - Allow Players to Set their RP names using the /rpname command.
@@ -420,3 +422,6 @@ Hungermod module
 GM.Config.hungerspeed = 2
 -- starverate <Amount> - How much health that is taken away every second the player is starving  (3 is the default)
 GM.Config.starverate = 3
+
+-- Empty disabled modules set
+GM.Config.DisabledCustomModules = {}
