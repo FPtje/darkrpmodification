@@ -135,6 +135,8 @@ GM.Config.restrictallteams 				= false
 GM.Config.restrictbuypistol 			= false
 -- restrictdrop - Enable/disable restricting the weapons players can drop. Setting this to true disallows weapons from shipments from being dropped
 GM.Config.restrictdrop 					= false
+-- revokeLicenseOnJobChange - Whether licenses are revoked when a player changes jobs
+GM.Config.revokeLicenseOnJobChange		= true
 -- shouldResetLaws - Enable/Disable resetting the laws back to the default law set when the mayor changes
 GM.Config.shouldResetLaws 				= false
 -- strictsuicide - Whether or not players should spawn where they suicided
@@ -404,6 +406,8 @@ Hitmenu module
 ---------------------------------------------------------------------------]]
 -- The minimum price for a hit
 GM.Config.minHitPrice = 200
+-- The maximum price for a hit
+GM.Config.maxHitPrice = 50000
 -- The minimum distance between a hitman and his customer when they make the deal
 GM.Config.minHitDistance = 150
 -- The text that tells the player he can press use on the hitman to request a hit
