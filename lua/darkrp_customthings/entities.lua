@@ -11,5 +11,8 @@ Note: If you want to edit a default DarkRP entity, first disable it in darkrp_co
 The default entities can be found here:
 https://github.com/FPtje/DarkRP/blob/master/gamemode/config/addentities.lua#L111
 
+For examples and explanation please visit this wiki page:
+http://wiki.darkrp.com/index.php/DarkRP:CustomEntityFields
+
 Add entities under the following line:
 ---------------------------------------------------------------------------]]
