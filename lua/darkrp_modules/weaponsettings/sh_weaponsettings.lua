@@ -26,7 +26,7 @@ weapon "stunstick".PrintName = "Bash baton"
 weapon "arrest_stick".Instructions = "Left click to arrest\nRight click to switch batons"
 
 -- Set the damage of the p228 to 20 per shot. Note: NO quotes around 20 because it's just a number.
-weapon "weapon_p2282".damage = 20
+weapon "weapon_p2282".Primary.damage = 20
 
 
 LIST OF DEFAULT DARKRP WEAPONS:
@@ -53,14 +53,7 @@ This list is not complete.
 
 -- ADD WEAPON SETTINGS BELOW THIS LINE
 ]] -----------------------------------------
--- Set the printname of the stunstick to "bash baton". Note: the quotation marks are important!
-weapon "stunstick".PrintName = "Bash baton"
 
--- Set the instructions of the arrest baton. Note the quotation marks! Also, the '\n' is an enter.
-weapon "arrest_stick".Instructions = "Left click to arrest\nRight click to fuck a ho"
-
--- Set the damage of the p228 to 20 per shot. Note: NO quotes around 20 because it's just a number.
-weapon "weapon_p2282".damage = 20
 
 --------------------------------------------
 -- ADD WEAPON SETTINGS ABOVE THIS LINE
