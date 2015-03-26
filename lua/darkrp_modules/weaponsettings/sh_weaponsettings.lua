@@ -26,7 +26,7 @@ weapon "stunstick".PrintName = "Bash baton"
 weapon "arrest_stick".Instructions = "Left click to arrest\nRight click to switch batons"
 
 -- Set the damage of the p228 to 20 per shot. Note: NO quotes around 20 because it's just a number.
-weapon "weapon_p2282".Primary.damage = 20
+weapon "weapon_p2282".Primary.Damage = 20
 
 
 LIST OF DEFAULT DARKRP WEAPONS:
