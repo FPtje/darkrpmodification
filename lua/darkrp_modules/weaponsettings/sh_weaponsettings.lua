@@ -15,6 +15,7 @@ IMPORTANT:
     - Note the '.' between the class name and the setting!
     - Casing MATTERS. PrintName IS NOT THE SAME AS printname!
     - CHANGING THE SETTINGS IS NOT RECODING THE WEAPON. PLEASE LEAVE THE AUTHORS FIELD INTACT. THANK YOU.
+    - Technically you can set any field of the weapon. Advanced users can even override e.g. PrimaryAttack with this.
 
 Examples:
 
