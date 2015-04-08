@@ -142,6 +142,7 @@ Chat groups do not have names, so their index is used instead.
 DarkRP.disabledDefaults["groupchat"] = {
 	[1] = false, -- Police group chat (mayor, cp, chief and/or your custom CP teams)
 	[2] = false, -- Group chat between gangsters and the mobboss
+	[3] = false, -- Group chat between people of the same team
 }
 
 --[[---------------------------------------------------------------------------
