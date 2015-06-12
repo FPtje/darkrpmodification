@@ -41,7 +41,7 @@ DarkRP.createAmmoType("pistol", {
 	model = "models/Items/BoxSRounds.mdl",
 	price = 30,
 	amountGiven = 24
-}
+})
 
 Buckshot ammo, used by the shotguns
 Example 2:
