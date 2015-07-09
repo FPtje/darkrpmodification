@@ -11,3 +11,13 @@ http://wiki.darkrp.com/index.php/DarkRP:Vehicles
 
 Add vehicles under the following line:
 ---------------------------------------------------------------------------]]
+DarkRP.createVehicle({
+	name = "Airboat",
+	model = "models/airboat.mdl",
+	price = 600,
+	
+	DarkRP.createVehicle({
+	name = "Jeep",
+	model = "models/buggy.mdll",
+	price = 500,
+	
