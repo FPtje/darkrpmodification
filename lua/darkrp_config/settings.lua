@@ -11,8 +11,8 @@ You need not worry about updating this file. If a new setting is added you can m
 
 
 --[[
-Toggle settings
-Set to true or false
+Toggle settings.
+Set to true or false.
 ]]
 
 -- voice3D - Enable/disable 3DVoice is enabled.
@@ -101,6 +101,8 @@ GM.Config.showjob                       = true
 GM.Config.letters                       = true
 -- license - Enable/disable People need a license to be able to pick up guns.
 GM.Config.license                       = false
+-- lockdown - Enable/Disable initiating lockdowns for mayors.
+GM.Config.lockdown                      = true
 -- lockpickfading - Enable/disable the lockpicking of fading doors.
 GM.Config.lockpickfading                = true
 -- logging - Enable/disable logging everything that happens.
@@ -198,6 +200,8 @@ GM.Config.entremovedelay                = 0
 GM.Config.gunlabweapon                  = "weapon_p2282"
 -- jailtimer - Sets the jailtimer (in seconds).
 GM.Config.jailtimer                     = 120
+-- lockdowndelay - The amount of time a mayor must wait before starting the next lockdown.
+GM.Config.lockdowndelay                 = 120
 -- maxdoors - Sets the max amount of doors one can own.
 GM.Config.maxdoors                      = 20
 -- maxdrugs - Sets max drugs.
