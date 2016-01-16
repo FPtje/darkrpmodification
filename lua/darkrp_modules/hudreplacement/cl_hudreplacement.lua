@@ -24,7 +24,13 @@ local hideHUDElements = {
 	["DarkRP_Hungermod"] = false,
 
 	-- Drawing the DarkRP agenda
-	["DarkRP_Agenda"] = false
+	["DarkRP_Agenda"] = false,
+
+	-- Lockdown info on the HUD
+	["DarkRP_LockdownHUD"] = false,
+
+	-- Arrested HUD
+	["DarkRP_ArrestedHUD"] = false,
 }
 
 -- this is the code that actually disables the drawing.
