@@ -21,8 +21,8 @@ RP_MySQLConfig.MultiStatements = false -- Only available in tmysql4: allow multi
 --[[
 MANUAL!
 HOW TO USE MySQL FOR DARKRP!
-Download andyvincent's/Drakehawke's/KingofBeast's gm_MySQL OO module and read the guide here:
-http://facepunch.com/showthread.php?t=1357773
+Download tmysql4 and read the guide here:
+https://facepunch.com/showthread.php?t=1442438
 
 
 WHAT TO DO IF YOU CAN'T GET IT TO WORK!
