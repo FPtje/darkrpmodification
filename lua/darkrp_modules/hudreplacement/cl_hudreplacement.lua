@@ -2,7 +2,7 @@
 Which default HUD elements should be hidden?
 ---------------------------------------------------------------------------]]
 
-local hideHUDElements = {
+DarkRP.hideHUDElements = {
 	-- if you DarkRP_HUD this to true, ALL of DarkRP's HUD will be disabled. That is the health bar and stuff,
 	-- but also the agenda, the voice chat icons, lockdown text, player arrested text and the names above players' heads
 	["DarkRP_HUD"] = false,
@@ -32,7 +32,7 @@ local hideHUDElements = {
 
 -- this is the code that actually disables the drawing.
 hook.Add("HUDShouldDraw", "HideDefaultDarkRPHud", function(name)
-	if hideHUDElements[name] then return false end
+	if DarkRP.hideHUDElements[name] then return false end
 end)
 
 if true then return end -- REMOVE THIS LINE TO ENABLE THE CUSTOM HUD BELOW
