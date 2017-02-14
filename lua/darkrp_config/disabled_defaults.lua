@@ -88,7 +88,7 @@ Vehicles
 (at the moment there are no default vehicles)
 ---------------------------------------------------------------------------]]
 DarkRP.disabledDefaults["vehicles"] = {
-
+        ["TDM Cars"]         = true,
 }
 
 --[[---------------------------------------------------------------------------
