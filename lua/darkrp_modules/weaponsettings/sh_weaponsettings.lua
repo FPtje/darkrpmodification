@@ -50,6 +50,21 @@ SOME SETTINGS THAT CAN BE CHANGED USING THIS METHOD:
     - DefaultClip
 
 This list is not complete.
+A more complete list can be found at the following links(Note, not every variable is universal. Make sure to check documentation for the weapon you are modifiying!): 
+
+TFA Base:
+https://bitbucket.org/TheForgottenArchitect/tfa-base/src/463adebf0d55941361f7580d9eade151b658b7e1/lua/weapons/tfa_base_template/shared.lua?at=master&fileviewer=file-view-default
+
+M9K Base: 
+http://murderthon9000.com/bobs-base/
+
+CW 2.0: 
+https://docs.google.com/document/d/1FC6Lm7ml6eI-ocwSk5GXq5Sv0hZyrfQK9bMkChHhNNk/edit
+
+V92 SWEP Base: 
+http://steamcommunity.com/groups/CultOfV92/discussions/0/360671727314185116/
+
+Waiting on response from FA:S 2.0 Devs. 
 
 -- ADD WEAPON SETTINGS BELOW THIS LINE
 ]] -----------------------------------------
