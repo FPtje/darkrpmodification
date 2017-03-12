@@ -183,6 +183,7 @@ local my_language = {
     food = "food",
     Food = "Food",
     money_printer = "Money Printer",
+    tip_jar = "Tip Jar",
 
     sign_this_letter = "Sign this letter",
     signed_yours = "Yours,",
