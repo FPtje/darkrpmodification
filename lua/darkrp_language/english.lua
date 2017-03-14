@@ -43,6 +43,9 @@ local my_language = {
     npc_killpay = "%s for killing an NPC!",
     profit = "profit",
     loss = "loss",
+    Donate = "Donate",
+    you_donated = "You have donated %s to %s!",
+    has_donated = "%s has donated %s!",    
 
     -- backwards compatibility
     deducted_x = "Deducted %s%d",
@@ -274,6 +277,7 @@ local my_language = {
     cleaned_up = "Your %s were cleaned up.",
     you_bought_x = "You have bought %s for %s%d.", -- backwards compatibility
     you_bought = "You have bought %s for %s.",
+    you_got_yourself = "You got yourself a %s.",    
     you_received_x = "You have received %s for %s.",
 
     created_first_jailpos = "You have created the first jail position!",
@@ -396,13 +400,14 @@ local my_language = {
     -- Animations
     custom_animation = "Custom animation!",
     bow = "Bow",
-    dance = "Dance",
+    sexy_dance = "Sexy dance",
     follow_me = "Follow me!",
     laugh = "Laugh",
     lion_pose = "Lion pose",
     nonverbal_no = "Non-verbal no",
     thumbs_up = "Thumbs up",
     wave = "Wave",
+    dance = "Dance",    
 
     -- Hungermod
     starving = "Starving!",
