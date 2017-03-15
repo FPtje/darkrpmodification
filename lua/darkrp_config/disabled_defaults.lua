@@ -18,7 +18,9 @@ You can copy the medic from DarkRP and paste it in darkrp_config/jobs.lua
 
 --[[---------------------------------------------------------------------------
 The list of modules that are disabled. Set to true to disable, false to enable.
-Modules that are not in this list are enabled by default.
+Modules that are not in this list are enabled by default. 
+In some cases some external addons may overwrite one of the modules below and will expect them to be enabled to work. 
+In these few cases it will be pretty obvious when you expect something to happen and nothing does.  
 ---------------------------------------------------------------------------]]
 DarkRP.disabledDefaults["modules"] = {
 	["afk"]              = true,
@@ -86,6 +88,7 @@ DarkRP.disabledDefaults["entities"] = {
 --[[---------------------------------------------------------------------------
 Vehicles
 (at the moment there are no default vehicles)
+You could use this to disable vehicles you added in the vehicles.lua located in the darkrp_customthings folder.
 ---------------------------------------------------------------------------]]
 DarkRP.disabledDefaults["vehicles"] = {
 
