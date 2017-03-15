@@ -33,6 +33,8 @@ GM.Config.allowvehicleowning            = true
 GM.Config.allowvnocollide               = false
 -- alltalk - Enable for global chat, disable for local chat.
 GM.Config.alltalk                       = false
+-- antimultirun - Disallow people joining your server(s) twice on the same account.
+GM.Config.antimultirun                  = true
 -- autovehiclelock - Enable/Disable automatic locking of a vehicle when a player exits it.
 GM.Config.autovehiclelock               = false
 -- babygod - people spawn godded (prevent spawn killing).
@@ -111,7 +113,7 @@ GM.Config.logging                       = true
 GM.Config.lottery                       = true
 -- showname - Whether or not to display a player's name above their head in-game.
 GM.Config.showname                      = true
--- showname - Whether or not to display a player's health above their head in-game.
+-- showhealth - Whether or not to display a player's health above their head in-game.
 GM.Config.showhealth                    = true
 -- needwantedforarrest - Enable/disable Cops can only arrest wanted people.
 GM.Config.needwantedforarrest           = false
@@ -202,12 +204,16 @@ GM.Config.gunlabweapon                  = "weapon_p2282"
 GM.Config.jailtimer                     = 120
 -- lockdowndelay - The amount of time a mayor must wait before starting the next lockdown.
 GM.Config.lockdowndelay                 = 120
+-- maxadvertbillboards - The maximum number of /advert billboards a player can place.
+GM.Config.maxadvertbillboards           = 3
 -- maxdoors - Sets the max amount of doors one can own.
 GM.Config.maxdoors                      = 20
 -- maxdrugs - Sets max drugs.
 GM.Config.maxdrugs                      = 2
 -- maxfoods - Sets the max food cartons per Microwave owner.
 GM.Config.maxfoods                      = 2
+-- maxfooditems - Sets the max amount of food items a player can buy from the F4 menu.
+GM.Config.maxfooditems                  = 20
 -- maxlawboards - The maximum number of law boards the mayor can place.
 GM.Config.maxlawboards                  = 2
 -- maxletters - Sets max letters.
@@ -296,8 +302,8 @@ GM.Config.lockdownsound = "npc/overwatch/cityvoice/f_confirmcivilstatus_1_spkr.w
 GM.Config.DarkRPSkin = "DarkRP"
 GM.Config.currency = "$"
 GM.Config.chatCommandPrefix = "/"
-GM.Config.F1MenuHelpPage = "http://wiki.darkrp.com/index.php/Main_Page"
-GM.Config.F1MenuHelpPageTitle = "Wiki page"
+GM.Config.F1MenuHelpPage = "https://docs.google.com/document/d/10pvotowOA3EA7K5BMgdaKVOYjbrbx6dxrQn4LWxm30A/edit#heading=h.e5iaqteza8x7"
+GM.Config.F1MenuHelpPageTitle = "Server tips"
 
 -- Put Steam ID's and ranks in this list, and the players will have that rank when they join.
 GM.Config.DefaultPlayerGroups = {

@@ -11,9 +11,6 @@ local hideHUDElements = {
 	-- This also draws the information on doors and vehicles
 	["DarkRP_EntityDisplay"] = false,
 
-	-- DarkRP_ZombieInfo draws information about zombies for admins who use /showzombie.
-	["DarkRP_ZombieInfo"] = false,
-
 	-- This is the one you're most likely to replace first
 	-- DarkRP_LocalPlayerHUD is the default HUD you see on the bottom left of the screen
 	-- It shows your health, job, salary and wallet, but NOT hunger (if you have hungermod enabled)
@@ -24,7 +21,13 @@ local hideHUDElements = {
 	["DarkRP_Hungermod"] = false,
 
 	-- Drawing the DarkRP agenda
-	["DarkRP_Agenda"] = false
+	["DarkRP_Agenda"] = false,
+
+	-- Lockdown info on the HUD
+	["DarkRP_LockdownHUD"] = false,
+
+	-- Arrested HUD
+	["DarkRP_ArrestedHUD"] = false,
 }
 
 -- this is the code that actually disables the drawing.
