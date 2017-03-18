@@ -42,7 +42,7 @@ DarkRP.createAmmoType("pistol", {
 	name = "Pistol ammo",
 	model = "models/Items/BoxSRounds.mdl",
 	price = 30,
-	amountGiven = 24
+	amountGiven = 24,
 	customCheck = function( ply ) return ply:Team() == TEAM_GUN end)
 })
 
