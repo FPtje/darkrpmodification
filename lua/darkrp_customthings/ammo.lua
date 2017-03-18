@@ -34,7 +34,8 @@ customCheck: (Optional! Advanced!) a Lua function that describes who can buy the
 
 Examples are below!
 
-Pistol ammo type. Used by p228, desert eagle and all other pistols
+Pistol ammo type. Used by p228, desert eagle and all other pistols. 
+This ammo addition is different from the following three due to it making use of the "custom check" line. 
 Example 1:
 
 DarkRP.createAmmoType("pistol", {
@@ -42,6 +43,7 @@ DarkRP.createAmmoType("pistol", {
 	model = "models/Items/BoxSRounds.mdl",
 	price = 30,
 	amountGiven = 24
+	customCheck = function( ply ) return ply:Team() == TEAM_GUN end)
 })
 
 Buckshot ammo, used by the shotguns
