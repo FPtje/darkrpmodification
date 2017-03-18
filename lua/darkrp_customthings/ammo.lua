@@ -56,10 +56,19 @@ DarkRP.createAmmoType("buckshot", {
 Rifle ammo, usually used by assault rifles
 Example 3:
 
-DarkRP.createAmmoType("smg1", {
+DarkRP.createAmmoType("ar2", {
 	name = "Rifle ammo",
 	model = "models/Items/BoxMRounds.mdl",
 	price = 80,
+	amountGiven = 30
+})
+
+SMG Ammo, usually used by small lightweight automatic guns. 
+Example 4: 
+DarkRP.createAmmoType("smg1", {
+	name = "SMG ammo",
+	model = "models/Items/BoxMRounds.mdl",
+	price = 20,
 	amountGiven = 30
 })
 
