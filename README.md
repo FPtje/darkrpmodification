@@ -12,7 +12,7 @@ This addon was created for anyone, coding wiz or not, to be able to customize Da
 
 ## Contents of this addon ##
 Everything is in the Lua folder, because that is where the fun happens.
-
+==================
 -lua/darkrp_config/        -- Configuration files for DarkRP. Simple config settings, anyone can edit these.
 	- disabled_defaults.lua -- Not satisfied with something DarkRP ships with? Want to replace something? Disable it here!
 	- licenseweapons.lua    -- Weapons that require a license to carry (only when the license config option is enabled.)
