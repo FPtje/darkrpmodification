@@ -13,11 +13,11 @@ DarkRP.createAmmoType("ammoType", {
 })
 
 ammoType: The name of the ammo that Garry's mod recognizes
-    If you open your SWEP's shared.lua, you can find the ammo name next to
-    SWEP.Primary.Ammo = "AMMO NAME HERE"
-    or
-    SWEP.Secondary.Ammo = "AMMO NAME HERE"
-    You can find the default gmod ammo types here: https://wiki.garrysmod.com/page/Default_Ammo_Types
+   If you open your SWEP's shared.lua, you can find the ammo name next to
+   SWEP.Primary.Ammo = "AMMO NAME HERE"
+   or
+   SWEP.Secondary.Ammo = "AMMO NAME HERE"
+   You can find the default gmod ammo types here: https://wiki.garrysmod.com/page/Default_Ammo_Types
 
 name: The name you want to give to the ammo. This can be anything.
 
@@ -30,7 +30,7 @@ amountGiven: How much bullets of this ammo is given every time the player buys i
 customCheck: (Optional! Advanced!) a Lua function that describes who can buy the ammo.
     Similar to the custom check function for jobs and shipments
     Parameters:
-        ply: the player who is trying to buy the ammo
+	    ply: the player who is trying to buy the ammo
 
 Examples are below!
 
@@ -43,7 +43,10 @@ DarkRP.createAmmoType("pistol", {
     model = "models/Items/BoxSRounds.mdl",
     price = 30,
     amountGiven = 24,
-    customCheck = function( ply ) return ply:Team() == TEAM_GUN end)
+    customCheck = function(ply) return
+        table.HasValue({TEAM_EX_CONNORKENWAY}, ply:Team())
+    end,
+    CustomCheckFailMsg = "This ammo is for Connor only!",
 })
 
 Buckshot ammo, used by the shotguns
