@@ -21,21 +21,21 @@ Everything is in the Lua folder, because that is where the fun happens.
 
 - lua/darkrp_customthings/  
   - Custom shipments, jobs, entities and many other things. Take a look to see examples!
-	1. agendas.lua           
+1. agendas.lua           
 	  - Agendas and who manages them.
-	2. ammo.lua             
+2. ammo.lua             
 	  - Ammo that can be bought in F4.
-	3. doorgroups.lua        
+3. doorgroups.lua        
 	  - Doors that belong to groups of jobs (e.g. police force doors).
-	4. entities.lua          
+4. entities.lua          
 	  - Custom entities (e.g. money printer, gunlab) and replacement of default entities.
-	5. groupchats.lua        
+5. groupchats.lua        
 	  - Group chats for groups of jobs.
-	6. jobs.lua              
+6. jobs.lua              
 	  - Custom jobs and replacements of the default jobs.
-	7. shipments.lua         
+7. shipments.lua         
 	  - Custom shipments and replacements of the default ones.
-	8. vehicles.lua          
+8. vehicles.lua          
 	  - Custom vehicles  
 
 * lua/darkrp_language/      
