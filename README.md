@@ -29,11 +29,9 @@ Everything is in the Lua folder, because that is where the fun happens.
 	- shipments.lua         -- *Custom shipments and replacements of the default ones.*
 	- vehicles.lua          -- *Custom vehicles*  
 
-* lua/darkrp_language/      
-  -- Vous êtes Français? Sind Sie Deutsch? Translate DarkRP here!  
+- lua/darkrp_language/      -- *Vous êtes Français? Sind Sie Deutsch? Translate DarkRP here!*  
 
-* lua/darkrp_modules/       
-  -- Replace a DarkRP module with your own version or script your own mod for DarkRP!  
+- lua/darkrp_modules/       -- *Replace a DarkRP module with your own version or script your own mod for DarkRP!*  
 
 #### Check out the DarkRP wiki for guides, tutorials and documentation! ####
 [DarkRP Wiki](http://wiki.darkrp.com/index.php/Main_Page)
