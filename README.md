@@ -5,7 +5,7 @@ for DarkRP 2.5.0 and above.
 ## Download ##
 Are you looking at this addon from the github web page? There's a "Download zip" button on the right.
 Just download and put the contents into a folder in the garrysmod/addons folder!  
-If you have come this far and still have yet to find the download for the actual DarkRP gamemode(which this download **can not** function without) you can find it here:
+If you have come this far and still have yet to find the download for the actual DarkRP gamemode (which this download **can not** function without) you can find it at either one of these locations:
 * [On the Workshop](http://steamcommunity.com/sharedfiles/filedetails/?id=248302805)  
   or   
 * [On GitHub](https://github.com/FPtje/DarkRP)  
