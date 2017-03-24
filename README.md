@@ -15,7 +15,7 @@ You should **not edit _any_ of the DarkRP core files** (anything in gamemodes/da
 This addon was created for anyone meaning even if you dont know lua this make it possible to customize DarkRP without worrying about updates or having to know how to read/write in lua. Have a look around and feel free to use any one of the many resources available to you at the bottom of this text!
 
 ## Contents of this addon ##
-Everything you will need is in the Lua folder, because that is where the fun happens. *(if you have anything else in this folder you have done something wrong!)* 
+Everything you will need is in the Lua folder, because that is where the fun happens. *(if you have anything else other than text based files in this folder you have done something wrong!)* 
 
 - **lua/darkrp_config/**         -- *Configuration files for DarkRP. Simple config settings, anyone can edit these.*
 	- disabled_defaults.lua -- *Not satisfied with something DarkRP ships with? Want to replace something? Disable it here!*
