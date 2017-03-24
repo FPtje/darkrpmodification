@@ -11,7 +11,7 @@ If you have come this far and still have yet to find the download for the actual
 * [On GitHub](https://github.com/FPtje/DarkRP)  
 
 ## Description ##
-You should **not edit _any_ of the DarkRP core files** (anything in gamemodes/darkrp/*). That is why this addon exists.
+You should **not edit _any_ of the DarkRP core files** (anything in gamemodes/darkrp/*). That is why this addon exists.  
 This addon was created for anyone meaning even if you dont know lua this make it possible to customize DarkRP without worrying about updates or having to know how to read/write in lua. Have a look around and feel free to use any one of the many resources available to you at the bottom of this text!
 
 ## Contents of this addon ##
