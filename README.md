@@ -8,7 +8,7 @@ Just download and put in a folder in addons!
 
 ## Description ##
 You should **not edit any of the DarkRP core files** (anything in gamemodes/darkrp/*). That is why this addon exists.
-This addon was created for anyone, coding wiz or not, to be able to customize DarkRP without worrying about updates or having to know advanced coding functions. Have a look around and feel free to use any one of the many resources available to you at the bottom of this text!
+This addon was created for anyone meaning even if you dont know lua this make it possible to customize DarkRP without worrying about updates or having to know how to read/write in lua. Have a look around and feel free to use any one of the many resources available to you at the bottom of this text!
 
 ## Contents of this addon ##
 Everything is in the Lua folder, because that is where the fun happens.  
