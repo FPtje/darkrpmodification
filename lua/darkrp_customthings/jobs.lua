@@ -15,6 +15,33 @@ http://wiki.darkrp.com/index.php/DarkRP:CustomJobFields
 
 Add your custom jobs under the following line:
 ---------------------------------------------------------------------------]]
+TEAM_TERROR = DarkRP.createJob(" Terrorist", {
+    color = Color(150, 0, 0, 255),
+    model = {"models/player/phoenix.mdl"},
+    description = [[Kill everyone]],
+    weapons = {"weapon_ak472"},
+    command = "/Terrorist",
+    max = 10,
+    salary = 250,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Gangsters ",
+    ammo = {
+        ["pistol"] = 1000
+    },
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(150)
+        ply:SetHealth(150)
+        ply:SetArmor(50)
+        ply:SetBodygroup(2, 2)
+    end,
+    customCheck = function(ply) return CLIENT or
+        table.HasValue({TEAM_CITIZEN}, ply:Team())
+    end,
+    CustomCheckFailMsg = "Your a terrorist",
+})
 
 
 
