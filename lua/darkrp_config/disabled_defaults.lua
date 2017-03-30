@@ -92,7 +92,7 @@ Vehicles
 You could use this to disable vehicles you added in the vehicles.lua located in the darkrp_customthings folder.
 ---------------------------------------------------------------------------]]
 DarkRP.disabledDefaults["vehicles"] = {
-
+        ["TDM Cars"]         = true,
 }
 
 --[[---------------------------------------------------------------------------
