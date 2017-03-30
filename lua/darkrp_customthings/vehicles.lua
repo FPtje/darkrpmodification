@@ -13,3 +13,13 @@ in the disabled_defaults.lua in the "darkrp_config" folder
 
 Add vehicles under the following line:
 ---------------------------------------------------------------------------]]
+DarkRP.createVehicle({
+	name = "Airboat",
+	model = "models/airboat.mdl",
+	price = 600,
+	
+	DarkRP.createVehicle({
+	name = "Jeep",
+	model = "models/buggy.mdll",
+	price = 500,
+	
