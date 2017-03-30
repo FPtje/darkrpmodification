@@ -62,7 +62,7 @@ This list is not complete.
 
 -- ADD WEAPON SETTINGS BELOW THIS LINE
 ]] -----------------------------------------
-
+"weapon_p2282".Primary.Damage = 40
 
 --------------------------------------------
 -- ADD WEAPON SETTINGS ABOVE THIS LINE
