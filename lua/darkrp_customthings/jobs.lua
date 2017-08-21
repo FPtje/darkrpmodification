@@ -15,6 +15,65 @@ http://wiki.darkrp.com/index.php/DarkRP:CustomJobFields
 
 Add your custom jobs under the following line:
 ---------------------------------------------------------------------------]]
+Super Admin = DarkRP.createJob("Super Admin", {
+color = Color(255, 0, 8, 255),
+model = {"models/player/b4p/b4p_vader.mdl"},
+description = [[Super Admin]],
+weapons = {"m9k_dragunov", "laserpointer", "weapon_medkit", "weapon_fists", "grapplehook"},
+command = "/SuperAdmin",
+max = 3,
+salary = 9999999,
+admin = 1,
+vote = false,
+hasLicense = true,
+candemote = false,
+category = "Super Admin",
+customCheck = function(ply) return
+table.HasValue({"TEAM ADMIN"}, ply:Team())
+})
+Thief = DarkRP.createJob("Thief", {
+color = Color(255, 0, 8, 120),
+model = {" models/player/phoenix.mdl"},
+description = [[Can Base Can Raid]],
+weapons = {"lockpick"},
+command = "",
+max = 6,
+salary = 75,
+admin = 0,
+vote = false,
+hasLicense = false,
+candemote = false,
+category = "Gangsters",
+})
+Guard = DarkRP.createJob("Guard", {
+color = Color(255, 0, 8, 170),
+model = {"models/wrex/wrex.mdl"},
+description = [[Can base]],
+weapons = {"weapon_vj_glock17"
+command = "",
+max = 4,
+salary = 100,
+admin = 0,
+vote = false,
+hasLicense = true,
+candemote = false,
+category = "Citizen",
+})     
+Doctor = DarkRP.createJob("Doctor", {
+color = Color(100, 0, 8, 255),
+model = {"Models/mw2guy/BZ/tfbzca02.mdl"},
+description = [[Can base]],
+weapons = {"weapon_medkit"
+command = "",
+max = 2,
+salary = 100,
+admin = 0,
+vote = false,
+hasLicense = false,
+candemote = false,
+category = "Citizen",
+
+
 
 
 
