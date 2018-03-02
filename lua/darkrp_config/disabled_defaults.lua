@@ -35,6 +35,7 @@ DarkRP.disabledDefaults["modules"] = {
 	["playerscale"]      = false,
 	["sleep"]            = false,
 	["fadmin"]           = false,
+	["scoreboard"]       = false, --set this to true if you want to disable the scoreboard and keep fadmin
 }
 
 
