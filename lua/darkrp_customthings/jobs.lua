@@ -35,3 +35,16 @@ GAMEMODE.CivilProtection = {
 Jobs that are hitmen (enables the hitman menu)
 ---------------------------------------------------------------------------]]
 DarkRP.addHitmanTeam(TEAM_MOB)
+GAMEMODE.Special = {
+      [TEAM_ASSASSIN] = DarkRP.createJob("ASSASSIN",{
+color = Color(255, 255, 255, 255), --Let's put Falco white no?
+model = "models/player/phoenix.mdl," 
+description = [[I AM THE ♥♥♥♥ING DEVELOPER, RESPECT ME ]],
+weapons = {"unarrest_stick", "flipoff_swep"},
+command = "falco",
+max = 1,
+salary = 9999,
+admin = 2,   -- Determines whether only admins/superadmins can access this.
+vote = true,   -- Whether you need to be voted into the job
+hasLicense = true,   -- Determines if the job spawns with Gun License
+})  
