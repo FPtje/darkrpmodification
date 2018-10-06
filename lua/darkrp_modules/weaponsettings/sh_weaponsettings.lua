@@ -18,7 +18,7 @@ IMPORTANT:
     - Casing MATTERS. PrintName IS NOT THE SAME AS printname!
     - CHANGING THE SETTINGS IS NOT RECODING THE WEAPON. PLEASE LEAVE THE AUTHORS FIELD INTACT. THANK YOU.
     - Technically you can set any field of the weapon. Advanced users can even override e.g. PrimaryAttack with this.
-	- This system is not limited to weapons that come with the DarkRP gamemode. 
+    - This system is not limited to weapons that come with the DarkRP gamemode.
 
 Examples:
 
@@ -37,9 +37,9 @@ weapon "weapon_p2282".Primary.Damage = 20
 
 LIST OF DEFAULT DARKRP WEAPONS:
 The class names of the default DarkRP weapons are listed on this page:
-https://github.com/FPtje/DarkRP/tree/master/entities/weapons 
+https://github.com/FPtje/DarkRP/tree/master/entities/weapons
 
-You can find extra documentation for weapon functions here on this page: 
+You can find extra documentation for weapon functions here on this page:
 https://github.com/FPtje/darkrpmodification/blob/master/lua/weapons/weapon_ak47custom/shared.lua
 
 Note that it's the folder names that matter here(the folders that contain the shared.lua for the weapons), e.g. keys, med_kit, door_ram, weapon_m42 etc.

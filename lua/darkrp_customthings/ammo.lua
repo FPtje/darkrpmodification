@@ -30,7 +30,7 @@ amountGiven: How much bullets of this ammo is given every time the player buys i
 customCheck: (Optional! Advanced!) a Lua function that describes who can buy the ammo.
     Similar to the custom check function for jobs and shipments
     Parameters:
-	    ply: the player who is trying to buy the ammo
+        ply: the player who is trying to buy the ammo
 
 Examples are below!
 
