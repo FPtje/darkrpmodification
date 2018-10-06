@@ -35,9 +35,8 @@ DarkRP.disabledDefaults["modules"] = {
 	["playerscale"]      = false,
 	["sleep"]            = false,
 	["fadmin"]           = false,
+	["animations"]       = false,
 }
-
-
 
 --[[---------------------------------------------------------------------------
 The disabled default jobs. true to disable, false to enable.
@@ -163,6 +162,6 @@ When anyone is demoted from any job in this group, they will be temporarily bann
 from every job in the group
 ---------------------------------------------------------------------------]]
 DarkRP.disabledDefaults["demotegroups"] = {
-	["Cops"]		 = false,
+	["Cops"]	 = false,
 	["Gangsters"]	 = false,
 }
