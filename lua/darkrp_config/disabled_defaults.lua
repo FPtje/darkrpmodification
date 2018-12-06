@@ -165,3 +165,26 @@ DarkRP.disabledDefaults["demotegroups"] = {
     ["Cops"]      = false,
     ["Gangsters"] = false,
 }
+
+--[[---------------------------------------------------------------------------
+Workarounds
+
+DarkRP works around some bugs in GMod and other addons that aren't maintained
+(properly). Disabling workarounds will cause those things to break again.
+---------------------------------------------------------------------------]]
+DarkRP.disabledDefaults["workarounds"] = {
+    ["os.date() Windows crash"]                      = false,
+    ["SkidCheck"]                                    = false,
+    ["nil SteamID64 and AccountID local server fix"] = false,
+    ["Cam function descriptive errors"]              = false,
+    ["Error on edict limit"]                         = false,
+    ["Durgz witty sayings"]                          = false,
+    ["ULX /me command"]                              = false,
+    ["gm_save"]                                      = false,
+    ["rp_downtown_v4c_v2 rooftop spawn"]             = false,
+    ["White flashbang flashes"]                      = false,
+    ["APAnti"]                                       = false,
+    ["Wire field generator exploit fix"]             = false,
+    ["Door tool class fix"]                          = false,
+    ["Constraint crash exploit fix"]                 = false,
+}
