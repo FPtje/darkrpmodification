@@ -1,10 +1,8 @@
 --[[-----------------------------------------------------------------------
 English (example) language file
 ---------------------------------------------------------------------------
-
 This is the english language file. The things on the left side of the equals sign are the things you should leave alone
 The parts between the quotes are the parts you should translate. You can also copy this file and create a new language.
-
 = Warning =
 Sometimes when DarkRP is updated, new phrases are added.
 If you don't translate these phrases to your language, it will use the English sentence.
@@ -12,12 +10,9 @@ To fix this, join your server, open your console and enter darkp_getphrases your
 For English the command would be:
     darkrp_getphrases "en"
 because "en" is the language code for English.
-
 You can copy the missing phrases to this file and translate them.
-
 = Note =
 Make sure the language code is right at the bottom of this file
-
 = Using a language =
 Make sure the convar gmod_language is set to your language code. You can do that in a server CFG file.
 ---------------------------------------------------------------------------]]
@@ -125,6 +120,7 @@ local my_language = {
     deaths = "Deaths: %s",
     rpname_changed = "%s changed their RPName to: %s",
     disconnected_player = "Disconnected player",
+    player = "player",
 
     -- Teams
     need_to_be_before = "You need to be %s first in order to be able to become %s",
@@ -261,6 +257,7 @@ local my_language = {
     talk_to_your_group = "talk to your group",
 
     channel_set_to_x = "Channel set to %s!",
+    channel = "channel",
 
     -- Notifies
     disabled = "%s has been disabled! %s",
@@ -293,6 +290,7 @@ local my_language = {
     job_switch = "Jobs switched successfully!",
     job_switch_question = "Switch jobs with %s?",
     job_switch_requested = "Job switch requested.",
+    switch_jobs = "switch jobs",
 
     cooks_only = "Cooks only.",
 
@@ -318,8 +316,10 @@ local my_language = {
     nlr = "New Life Rule: Do Not Revenge Arrest/Kill.",
     reset_settings = "You have reset all settings!",
     must_be_x = "You must be a %s in order to be able to %s.",
+    agenda = "agenda",
     agenda_updated = "The agenda has been updated",
     job_set = "%s has set his/her job to '%s'",
+    demote_vote = "demote",
     demoted = "%s has been demoted",
     demoted_not = "%s has not been demoted",
     demote_vote_started = "%s has started a vote for the demotion of %s",
@@ -338,7 +338,7 @@ local my_language = {
     gunlicense_removed = "%s's license has been removed!",
     gunlicense_not_removed = "%s's license has not been removed!",
     vote_specify_reason = "You need to specify a reason!",
-    vote_started = "The vote is created",
+    vote_started = "The vote has been created",
     vote_alone = "You have won the vote since you are alone in the server.",
     you_cannot_vote = "You cannot vote!",
     x_cancelled_vote = "%s cancelled the last vote.",
@@ -347,6 +347,7 @@ local my_language = {
     admin_only = "Admin only!", -- When doing /addjailpos
     chief_or = "Chief or ",-- When doing /addjailpos
     frozen = "Frozen.",
+    recipient = "recipient",
 
     dead_in_jail = "You now are dead until your jail time is up!",
     died_in_jail = "%s has died in jail!",
@@ -543,7 +544,6 @@ local my_language = {
 
     -- Licenseweaponstab
     license_tab = [[License weapons
-
     Tick the weapons people should be able to get WITHOUT a license!
     ]],
     license_tab_other_weapons = "Other weapons:",
