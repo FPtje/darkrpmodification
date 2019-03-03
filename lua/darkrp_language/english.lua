@@ -3,6 +3,7 @@ English (example) language file
 ---------------------------------------------------------------------------
 This is the english language file. The things on the left side of the equals sign are the things you should leave alone
 The parts between the quotes are the parts you should translate. You can also copy this file and create a new language.
+
 = Warning =
 Sometimes when DarkRP is updated, new phrases are added.
 If you don't translate these phrases to your language, it will use the English sentence.
@@ -10,9 +11,12 @@ To fix this, join your server, open your console and enter darkp_getphrases your
 For English the command would be:
     darkrp_getphrases "en"
 because "en" is the language code for English.
+
 You can copy the missing phrases to this file and translate them.
+
 = Note =
 Make sure the language code is right at the bottom of this file
+
 = Using a language =
 Make sure the convar gmod_language is set to your language code. You can do that in a server CFG file.
 ---------------------------------------------------------------------------]]
@@ -348,6 +352,10 @@ local my_language = {
     chief_or = "Chief or ",-- When doing /addjailpos
     frozen = "Frozen.",
     recipient = "recipient",
+    forbidden_name = "Forbidden name.",
+    illegal_characters = "Illegal characters.",
+    too_long = "Too long.",
+    too_short = "Too short.",
 
     dead_in_jail = "You now are dead until your jail time is up!",
     died_in_jail = "%s has died in jail!",
@@ -368,7 +376,7 @@ local my_language = {
 
     rp_teamban_hint = "rp_teamban [player name/ID] [team name/id]. Use this to ban a player from a certain team.",
     rp_teamunban_hint = "rp_teamunban [player name/ID] [team name/id]. Use this to unban a player from a certain team.",
-    x_teambanned_y = "%s has banned %s from being a %s.",
+    x_teambanned_y_for_z = "%s has banned %s from being a %s for %s minutes.",
     x_teamunbanned_y = "%s has unbanned %s from being a %s.",
 
     -- Backwards compatibility:
@@ -544,6 +552,7 @@ local my_language = {
 
     -- Licenseweaponstab
     license_tab = [[License weapons
+
     Tick the weapons people should be able to get WITHOUT a license!
     ]],
     license_tab_other_weapons = "Other weapons:",
