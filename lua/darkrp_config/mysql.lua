@@ -22,7 +22,7 @@ RP_MySQLConfig.MultiStatements = false -- Only available in tmysql4: allow multi
 MANUAL!
 HOW TO USE MySQL FOR DARKRP!
 Download MySQLOO and read the guide here:
-https://facepunch.com/showthread.php?t=1515853
+https://forum.facepunch.com/gmodgd/jjdq/gmsv-mysqloo-v9-Rewritten-MySQL-Module-prepared-statements-transactions/
 
 
 WHAT TO DO IF YOU CAN'T GET IT TO WORK!
