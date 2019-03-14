@@ -187,4 +187,5 @@ DarkRP.disabledDefaults["workarounds"] = {
     ["Wire field generator exploit fix"]             = false,
     ["Door tool class fix"]                          = false,
     ["Constraint crash exploit fix"]                 = false,
+    ["Deprecated console commands"]                  = false,
 }
