@@ -36,10 +36,10 @@ local my_language = {
     -- Money things:
     price = "Price: %s%d",
     priceTag = "Price: %s",
-    reset_money = "%s has reset all players' money!",
+    reset_money = "%s has reset all player's money!",
     has_given = "%s has given you %s",
     you_gave = "You gave %s %s",
-    npc_killpay = "%s for killing an NPC!",
+    npc_killpay = "You have received %s for killing an NPC!",
     profit = "profit",
     loss = "loss",
     Donate = "Donate",
