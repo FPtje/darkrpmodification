@@ -189,4 +189,5 @@ DarkRP.disabledDefaults["workarounds"] = {
     ["Door tool class fix"]                          = false,
     ["Constraint crash exploit fix"]                 = false,
     ["Deprecated console commands"]                  = false,
+    ["disable CAC"]                                  = false,
 }
