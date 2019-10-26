@@ -28,6 +28,9 @@ local hideHUDElements = {
 
     -- Arrested HUD
     ["DarkRP_ArrestedHUD"] = false,
+
+    -- Chat receivers box when you open chat or speak over the microphone
+    ["DarkRP_ChatReceivers"] = false,
 }
 
 -- this is the code that actually disables the drawing.
