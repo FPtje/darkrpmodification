@@ -16,7 +16,28 @@ http://wiki.darkrp.com/index.php/DarkRP:CustomJobFields
 Add your custom jobs under the following line:
 ---------------------------------------------------------------------------]]
 
-
+TEAM_ZENGIN = DarkRP.createJob("Zengin", {
+        color = Color(0, 255, 255, 255),
+        model = {
+                "models/player/breen.mdl",
+                "models/player/Group03/Female_02.mdl"
+                },
+        description = [[raid yapamaz.Mug yapar.]],
+        weapons = {"weapon_p2282" , "weapon_shotgun"},
+        command = "zengin",
+        max = 3,
+        salary = 250,
+        admin = 0,
+        vote = false,
+        hasLicense = true,
+        customCheck = function(ply) return ply:getDarkRPVar("money") > 500000 end,
+        CustomCheckFailMsg = "Yeterli paran yok!",
+        modelScale = 1.5,
+        maxpocket = 20,
+    PlayerSpawn =  function(ply) ply:SetArmor(100) end,
+        RequiresVote = function(ply, job) for k,v in pairs(player.GetAll()) do if IsValid(v) and v:IsAdmin() then return false end end return true end, -- Oyunda admin yokken vote yapmak zorunda olmak
+        label = "Super job",
+            
 
 --[[---------------------------------------------------------------------------
 Define which team joining players spawn into and what team you change to if demoted
