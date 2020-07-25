@@ -11,7 +11,7 @@ The default jobs can be found here:
 https://github.com/FPtje/DarkRP/blob/master/gamemode/config/jobrelated.lua
 
 For examples and explanation please visit this wiki page:
-http://wiki.darkrp.com/index.php/DarkRP:CustomJobFields
+https://darkrp.miraheze.org/wiki/DarkRP:CustomJobFields
 
 Add your custom jobs under the following line:
 ---------------------------------------------------------------------------]]
