@@ -17,7 +17,7 @@ ammoType: The name of the ammo that Garry's mod recognizes
    SWEP.Primary.Ammo = "AMMO NAME HERE"
    or
    SWEP.Secondary.Ammo = "AMMO NAME HERE"
-   You can find the default gmod ammo types here: https://wiki.garrysmod.com/page/Default_Ammo_Types
+   You can find the default gmod ammo types here: https://wiki.facepunch.com/gmod/Default_Ammo_Types
 
 name: The name you want to give to the ammo. This can be anything.
 
