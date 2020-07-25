@@ -12,7 +12,7 @@ The default shipments and guns can be found here:
 https://github.com/FPtje/DarkRP/blob/master/gamemode/config/addentities.lua
 
 For examples and explanation please visit this wiki page:
-http://wiki.darkrp.com/index.php/DarkRP:CustomShipmentFields
+https://darkrp.miraheze.org/wiki/DarkRP:CustomShipmentFields
 
 
 Add shipments and guns under the following line:
