@@ -4,7 +4,7 @@ Categories
 The categories of the default F4 menu.
 
 Please read this page for more information:
-http://wiki.darkrp.com/index.php/DarkRP:Categories
+https://darkrp.miraheze.org/wiki/DarkRP:Categories
 
 In case that page can't be reached, here's an example with explanation:
 

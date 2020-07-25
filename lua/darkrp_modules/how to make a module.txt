@@ -28,10 +28,10 @@ lua/
 
 
 Here's a list of DarkRP functions that you can call in your module:
-http://wiki.darkrp.com/index.php/Category:Functions
+https://darkrp.miraheze.org/wiki/Category:Functions
 
 Here's a list of DarkRP hooks:
-http://wiki.darkrp.com/index.php/Category:Hooks
+https://darkrp.miraheze.org/wiki/Category:Hooks
 
 --[[---------------------------------------------------------------------------
 Autorefresh and simplerr
