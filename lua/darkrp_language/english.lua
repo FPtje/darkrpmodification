@@ -409,7 +409,7 @@ local my_language = {
     lottery_noone_entered = "No-one has entered the lottery",
     lottery_won = "%s has won the lottery! He has won %s",
     lottery = "lottery",
-    lottery_please_specify_an_entry_cost = "Please specify an entry cost ($%i-%i)",
+    lottery_please_specify_an_entry_cost = "Please specify an entry cost (%s-%s)",
     too_few_players_for_lottery = "There are too few players to start a lottery. There need to be at least %d players",
     lottery_ongoing = "Cannot start a lottery, there is already a lottery ongoing",
 
