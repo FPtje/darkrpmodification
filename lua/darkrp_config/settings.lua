@@ -21,6 +21,8 @@ GM.Config.voice3D                       = true
 GM.Config.AdminsCopWeapons              = true
 -- adminBypassJobCustomCheck - Enable/disable whether an admin can force set a job with whenever customCheck returns false.
 GM.Config.adminBypassJobRestrictions    = true
+-- Acts/Taunts - Enable/disable Taunts (e.g. act salute)
+GM.Config.allowActs                     = false
 -- allow people getting their own custom jobs.
 GM.Config.allowjobswitch                = true
 -- allowrpnames - Allow Players to Set their RP names using the /rpname command.
@@ -121,6 +123,8 @@ GM.Config.needwantedforarrest           = false
 GM.Config.noguns                        = false
 -- norespawn - Enable/Disable that people don't have to respawn when they change job.
 GM.Config.norespawn                     = true
+-- instantjob - Enable/Disable instantly respawning when norespawn is false
+GM.Config.instantjob                    = false
 -- npcarrest - Enable/disable arresting npc's.
 GM.Config.npcarrest                     = true
 -- ooc - Whether or not OOC tags are enabled.
@@ -268,6 +272,10 @@ GM.Config.shipmentspawntime             = 10
 GM.Config.startinghealth                = 100
 -- startingmoney - your wallet when you join for the first time.
 GM.Config.startingmoney                 = 500
+-- stunstickdamage - amount of damage the stunstick will do to entities.
+-- When between 0 and 1, the damage is relative, where 1 takes the entire health of the entity.
+-- When above 1, the damage is absolute
+GM.Config.stunstickdamage               = 1000
 -- vehiclecost - Sets the cost of a vehicle (To own it).
 GM.Config.vehiclecost                   = 40
 -- wallettaxmax - Maximum percentage of tax to be paid.
