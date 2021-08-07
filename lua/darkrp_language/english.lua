@@ -39,7 +39,7 @@ local my_language = {
     reset_money = "%s has reset all players' money!",
     has_given = "%s has given you %s",
     you_gave = "You gave %s %s",
-    npc_killpay = "You recieved %s for killing an NPC!",
+    npc_killpay = "%s for killing an NPC!",
     profit = "profit",
     loss = "loss",
     Donate = "Donate",
@@ -55,10 +55,10 @@ local my_language = {
 
     payday_message = "Payday! You received %s!",
     payday_unemployed = "You received no salary because you are unemployed!",
-    payday_missed = "You received no salary because you are arrested!",
+    payday_missed = "Pay day missed! (You're Arrested)",
 
-    property_tax = "Propery tax has taken %s from your balance.",
-    property_tax_cant_afford = "You couldn't pay the property taxes! Your property has been taken away from you!",
+    property_tax = "Property tax! %s",
+    property_tax_cant_afford = "You couldn't pay the taxes! Your property has been taken away from you!",
     taxday = "Tax Day! %s%% of your income was taken!",
 
     found_cheque = "You have found %s%s in a cheque made out to you from %s.",
@@ -131,7 +131,7 @@ local my_language = {
     need_to_make_vote = "You need to make a vote to become a %s!",
     team_limit_reached = "Can not become %s as the limit is reached",
     wants_to_be = "%s\nwants to be\n%s",
-    has_not_been_made_team = "%s lost the vote to become %s!",
+    has_not_been_made_team = "%s has not been made %s!",
     job_has_become = "%s has been made a %s!",
 
     -- Disasters
@@ -245,9 +245,9 @@ local my_language = {
 
     whisper = "whisper",
     yell = "yell",
-    broadcast = "[Broadcast]",
+    broadcast = "[Broadcast!]",
     radio = "radio",
-    request = "(REQUEST)",
+    request = "(REQUEST!)",
     group = "(group)",
     demote = "(DEMOTE)",
     ooc = "OOC",
@@ -402,8 +402,8 @@ local my_language = {
     cmd_cant_be_run_server_console = "This command cannot be run from the server console.",
 
     -- The lottery
-    lottery_started = "A lottery is starting! Participate for %s%d?", -- backwards compatibility
-    lottery_has_started = "A lottery is starting! Participate for %s?",
+    lottery_started = "There is a lottery! Participate for %s%d?", -- backwards compatibility
+    lottery_has_started = "There is a lottery! Participate for %s?",
     lottery_entered = "You entered the lottery for %s",
     lottery_not_entered = "%s did not enter the lottery",
     lottery_noone_entered = "No-one has entered the lottery",
@@ -443,7 +443,7 @@ local my_language = {
     -- Hitmenu
     hit = "hit",
     hitman = "Hitman",
-    current_hit = "Hit On: %s",
+    current_hit = "Hit: %s",
     cannot_request_hit = "Cannot request hit! %s",
     hitmenu_request = "Request",
     player_not_hitman = "This player is not a hitman!",
