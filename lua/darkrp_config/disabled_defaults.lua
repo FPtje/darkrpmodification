@@ -177,7 +177,6 @@ DarkRP.disabledDefaults["workarounds"] = {
     ["os.date() Windows crash"]                      = false,
     ["SkidCheck"]                                    = false,
     ["nil SteamID64 and AccountID local server fix"] = false,
-    ["Cam function descriptive errors"]              = false,
     ["Error on edict limit"]                         = false,
     ["Durgz witty sayings"]                          = false,
     ["ULX /me command"]                              = false,
