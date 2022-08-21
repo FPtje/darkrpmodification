@@ -14,6 +14,17 @@ If you want to disable or replace the default things, you should disable them he
 Note: if you want to have e.g. edit the official medic job, you MUST disable the default one in this file!
 You can copy the medic from DarkRP and paste it in darkrp_config/jobs.lua
 ---------------------------------------------------------------------------]]
+--[[---------------------------------------------------------------------------
+DarkRP custom vehicles
+---------------------------------------------------------------------------
+This file contains your custom vehicles.
+This file should also contain vehicles from DarkRP that you edited.
+For examples and explanation please visit this wiki page:
+https://darkrp.miraheze.org/wiki/DarkRP:Vehicles
+If you want to keep the vehicle code and not comment it out you can add a vehicle to the "DarkRP.disabledDefaults["vehicles"]" section
+in the disabled_defaults.lua in the "darkrp_config" folder
+Add vehicles under the following line:
+---------------------------------------------------------------------------]]
 
 
 --[[---------------------------------------------------------------------------
