@@ -176,7 +176,6 @@ DarkRP works around some bugs in GMod and other addons that aren't maintained
 DarkRP.disabledDefaults["workarounds"] = {
     ["os.date() Windows crash"]                      = false,
     ["SkidCheck"]                                    = false,
-    ["nil SteamID64 and AccountID local server fix"] = false,
     ["Error on edict limit"]                         = false,
     ["Durgz witty sayings"]                          = false,
     ["ULX /me command"]                              = false,
