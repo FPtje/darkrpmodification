@@ -25,15 +25,15 @@ In these few cases it will be pretty obvious when you expect something to happen
 DarkRP.disabledDefaults["modules"] = {
     ["afk"]              = true,
     ["chatsounds"]       = false,
-    ["events"]           = false,
-    ["fpp"]              = false,
+    ["events"]           = true,
+    ["fpp"]              = true,
     ["f1menu"]           = false,
     ["f4menu"]           = false,
     ["hitmenu"]          = false,
     ["hud"]              = false,
     ["hungermod"]        = true,
     ["playerscale"]      = false,
-    ["sleep"]            = false,
+    ["sleep"]            = true,
     ["fadmin"]           = false,
     ["animations"]       = false,
     ["chatindicator"]    = false,
@@ -47,43 +47,43 @@ e.g. you disable the gundealer and you make a new job as TEAM_GUN. If you want t
 work for your custom job, remake them to include your job as well.
 ---------------------------------------------------------------------------]]
 DarkRP.disabledDefaults["jobs"] = {
-    ["chief"]     = false,
-    ["citizen"]   = false,
-    ["cook"]      = false, --Hungermod only
-    ["cp"]        = false,
-    ["gangster"]  = false,
-    ["gundealer"] = false,
-    ["hobo"]      = false,
-    ["mayor"]     = false,
-    ["medic"]     = false,
-    ["mobboss"]   = false,
+    ["chief"]     = true,
+    ["citizen"]   = true,
+    ["cook"]      = true, --Hungermod only
+    ["cp"]        = true,
+    ["gangster"]  = true,
+    ["gundealer"] = true,
+    ["hobo"]      = true,
+    ["mayor"]     = true,
+    ["medic"]     = true,
+    ["mobboss"]   = true,
 }
 
 --[[---------------------------------------------------------------------------
 Shipments and pistols
 ---------------------------------------------------------------------------]]
 DarkRP.disabledDefaults["shipments"] = {
-    ["AK47"]         = false,
-    ["Desert eagle"] = false,
-    ["Fiveseven"]    = false,
-    ["Glock"]        = false,
-    ["M4"]           = false,
-    ["Mac 10"]       = false,
-    ["MP5"]          = false,
-    ["P228"]         = false,
-    ["Pump shotgun"] = false,
-    ["Sniper rifle"] = false,
+    ["AK47"]         = true,
+    ["Desert eagle"] = true,
+    ["Fiveseven"]    = true,
+    ["Glock"]        = true,
+    ["M4"]           = true,
+    ["Mac 10"]       = true,
+    ["MP5"]          = true,
+    ["P228"]         = true,
+    ["Pump shotgun"] = true,
+    ["Sniper rifle"] = true,
 }
 
 --[[---------------------------------------------------------------------------
 Entities
 ---------------------------------------------------------------------------]]
 DarkRP.disabledDefaults["entities"] = {
-    ["Drug lab"]      = false,
-    ["Gun lab"]       = false,
-    ["Money printer"] = false,
-    ["Microwave"]     = false, --Hungermod only
-    ["Tip Jar"]       = false,
+    ["Drug lab"]      = true,
+    ["Gun lab"]       = true,
+    ["Money printer"] = true,
+    ["Microwave"]     = true, --Hungermod only
+    ["Tip Jar"]       = true,
 }
 
 --[[---------------------------------------------------------------------------
@@ -100,25 +100,25 @@ Food
 Food is only enabled when hungermod is enabled (see disabled modules above).
 ---------------------------------------------------------------------------]]
 DarkRP.disabledDefaults["food"] = {
-    ["Banana"]           = false,
-    ["Bunch of bananas"] = false,
-    ["Melon"]            = false,
-    ["Glass bottle"]     = false,
-    ["Pop can"]          = false,
-    ["Plastic bottle"]   = false,
-    ["Milk"]             = false,
-    ["Bottle 1"]         = false,
-    ["Bottle 2"]         = false,
-    ["Bottle 3"]         = false,
-    ["Orange"]           = false,
+    ["Banana"]           = true,
+    ["Bunch of bananas"] = true,
+    ["Melon"]            = true,
+    ["Glass bottle"]     = true,
+    ["Pop can"]          = true,
+    ["Plastic bottle"]   = true,
+    ["Milk"]             = true,
+    ["Bottle 1"]         = true,
+    ["Bottle 2"]         = true,
+    ["Bottle 3"]         = true,
+    ["Orange"]           = true,
 }
 
 --[[---------------------------------------------------------------------------
 Door groups
 ---------------------------------------------------------------------------]]
 DarkRP.disabledDefaults["doorgroups"] = {
-    ["Cops and Mayor only"] = false,
-    ["Gundealer only"]      = false,
+    ["Cops and Mayor only"] = true,
+    ["Gundealer only"]      = true,
 }
 
 
@@ -126,17 +126,17 @@ DarkRP.disabledDefaults["doorgroups"] = {
 Ammo packets
 ---------------------------------------------------------------------------]]
 DarkRP.disabledDefaults["ammo"] = {
-    ["Pistol ammo"]  = false,
-    ["Rifle ammo"]   = false,
-    ["Shotgun ammo"] = false,
+    ["Pistol ammo"]  = true,
+    ["Rifle ammo"]   = true,
+    ["Shotgun ammo"] = true,
 }
 
 --[[---------------------------------------------------------------------------
 Agendas
 ---------------------------------------------------------------------------]]
 DarkRP.disabledDefaults["agendas"] = {
-    ["Gangster's agenda"] = false,
-    ["Police agenda"] = false,
+    ["Gangster's agenda"] = true,
+    ["Police agenda"] = true,
 }
 
 --[[---------------------------------------------------------------------------
@@ -144,9 +144,9 @@ Chat groups (chat with /g)
 Chat groups do not have names, so their index is used instead.
 ---------------------------------------------------------------------------]]
 DarkRP.disabledDefaults["groupchat"] = {
-    [1] = false, -- Police group chat (mayor, cp, chief and/or your custom CP teams)
-    [2] = false, -- Group chat between gangsters and the mobboss
-    [3] = false, -- Group chat between people of the same team
+    [1] = true, -- Police group chat (mayor, cp, chief and/or your custom CP teams)
+    [2] = true, -- Group chat between gangsters and the mobboss
+    [3] = true, -- Group chat between people of the same team
 }
 
 --[[---------------------------------------------------------------------------
@@ -154,7 +154,7 @@ Jobs that are hitmen
 set to true to disable
 ---------------------------------------------------------------------------]]
 DarkRP.disabledDefaults["hitmen"] = {
-    ["mobboss"] = false,
+    ["mobboss"] = true,
 }
 
 --[[---------------------------------------------------------------------------
@@ -163,8 +163,8 @@ When anyone is demoted from any job in this group, they will be temporarily bann
 from every job in the group
 ---------------------------------------------------------------------------]]
 DarkRP.disabledDefaults["demotegroups"] = {
-    ["Cops"]      = false,
-    ["Gangsters"] = false,
+    ["Cops"]      = true,
+    ["Gangsters"] = true,
 }
 
 --[[---------------------------------------------------------------------------
