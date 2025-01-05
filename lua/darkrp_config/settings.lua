@@ -38,13 +38,13 @@ GM.Config.alltalk                       = false
 -- antimultirun - Disallow people joining your server(s) twice on the same account.
 GM.Config.antimultirun                  = true
 -- autovehiclelock - Enable/Disable automatic locking of a vehicle when a player exits it.
-GM.Config.autovehiclelock               = false
+GM.Config.autovehiclelock               = true
 -- babygod - people spawn godded (prevent spawn killing).
 GM.Config.babygod                       = true
 -- canforcedooropen - whether players can force an unownable door open with lockpick or battering ram or w/e.
 GM.Config.canforcedooropen              = true
 -- chatsounds - sounds are played when some things are said in chat.
-GM.Config.chatsounds                    = true
+GM.Config.chatsounds                    = false
 -- chiefjailpos - Allow the Chief to set the jail positions.
 GM.Config.chiefjailpos                  = false
 -- cit_propertytax - Enable/disable property tax that is exclusive only for citizens.
@@ -58,7 +58,7 @@ GM.Config.cpcanarrestcp                 = false
 -- currencyLeft - The position of the currency symbol. true for left, false for right.
 GM.Config.currencyLeft                  = true
 -- customjobs - Enable/disable the /job command (personalized job names).
-GM.Config.customjobs                    = true
+GM.Config.customjobs                    = false
 -- customspawns - Enable/disable whether custom spawns should be used.
 GM.Config.customspawns                  = true
 -- deathblack - Whether or not a player sees black on death.
@@ -76,13 +76,13 @@ GM.Config.decalcleaner                  = false
 -- disallowClientsideScripts - Clientside scripts can be very useful for customizing the HUD or to aid in building. This option bans those scripts.
 GM.Config.disallowClientsideScripts     = true
 -- doorwarrants - Enable/disable Warrant requirement to enter property.
-GM.Config.doorwarrants                  = true
+GM.Config.doorwarrants                  = false
 -- dropmoneyondeath - Enable/disable whether people drop money on death.
 GM.Config.dropmoneyondeath              = false
 -- droppocketarrest - Enable/disable whether people drop the stuff in their pockets when they get arrested.
 GM.Config.droppocketarrest              = false
 -- droppocketdeath - Enable/disable whether people drop the stuff in their pockets when they die.
-GM.Config.droppocketdeath               = true
+GM.Config.droppocketdeath               = false
 -- dropweapondeath - Enable/disable whether people drop their current weapon when they die.
 GM.Config.dropweapondeath               = false
 -- Whether players can drop the weapons they spawn with.
@@ -122,7 +122,7 @@ GM.Config.needwantedforarrest           = false
 -- noguns - Enabling this feature bans Guns and Gun Dealers.
 GM.Config.noguns                        = false
 -- norespawn - Enable/Disable that people don't have to respawn when they change job.
-GM.Config.norespawn                     = true
+GM.Config.norespawn                     = false
 -- keepPickedUp - Enable/Disable keeping picked up weapons when switching jobs.
 GM.Config.keepPickedUp                  = false
 -- instantjob - Enable/Disable instantly respawning when norespawn is false
@@ -164,7 +164,7 @@ GM.Config.unlockdoorsonstart            = false
 -- voiceradius - Enable/disable local voice chat.
 GM.Config.voiceradius                   = true
 -- tax - Whether players pay taxes on their wallets.
-GM.Config.wallettax                     = true
+GM.Config.wallettax                     = false
 -- wantedrespawn - Whether players remain wanted on respawn.
 GM.Config.wantedrespawn                 = false
 -- wantedsuicide - Enable/Disable suiciding while you are wanted by the police.
@@ -182,17 +182,17 @@ GM.Config.weaponCheckerHideNoLicense    = false
 Value settings
 ]]
 -- adminnpcs - Whether or not NPCs should be admin only. 0 = everyone, 1 = admin or higher, 2 = superadmin or higher, 3 = rcon only
-GM.Config.adminnpcs                     = 2
+GM.Config.adminnpcs                     = 3
 -- adminsents - Whether or not SENTs should be admin only. 0 = everyone, 1 = admin or higher, 2 = superadmin or higher, 3 = rcon only
-GM.Config.adminsents                    = 2
+GM.Config.adminsents                    = 0
 -- adminvehicles - Whether or not vehicles should be admin only. 0 = everyone, 1 = admin or higher, 2 = superadmin or higher, 3 = rcon only
 GM.Config.adminvehicles                 = 2
--- adminweapons - Who can spawn weapons: 0: admins only, 1: supadmins only, 2: no one, 3: everyone
+-- adminweapons - Who can spawn weapons: 0: admins only, 1: supadmins only, 2: no one
 GM.Config.adminweapons                  = 1
 -- arrestspeed - Sets the max arrest speed.
 GM.Config.arrestspeed                   = 325
 -- babygodtime - How long the babygod lasts.
-GM.Config.babygodtime                   = 3
+GM.Config.babygodtime                   = 0
 -- chatsoundsdelay - How long to wait before letting a player emit a sound from their chat again.
 -- Leave this on at least a few seconds to prevent people from spamming sounds. Set to 0 to disable.
 GM.Config.chatsoundsdelay               = 3
@@ -213,7 +213,7 @@ GM.Config.jailtimer                     = 120
 -- lockdowndelay - The amount of time a mayor must wait before starting the next lockdown.
 GM.Config.lockdowndelay                 = 120
 -- maxadvertbillboards - The maximum number of /advert billboards a player can place.
-GM.Config.maxadvertbillboards           = 3
+GM.Config.maxadvertbillboards           = 0
 -- maxCheques - The maximum number of cheques someone can write
 GM.Config.maxCheques                    = 5
 -- maxdoors - Sets the max amount of doors one can own.
@@ -234,12 +234,6 @@ GM.Config.maxlotterycost                = 1000
 GM.Config.maxvehicles                   = 1
 -- microwavefoodcost - Sets the sale price of Microwave Food.
 GM.Config.microwavefoodcost             = 30
--- gunlabguncost - Sets the initial price of a gun from a gunlab. Note that the
--- gunlab owner can change this price.
-GM.Config.gunlabguncost                 = 200
--- druglabdrugcost - Sets the initial price of drugs from a drugs lab. Note that
--- the drugs lab owner can change this price.
-GM.Config.druglabdrugcost               = 100
 -- minlotterycost - Minimum payment the mayor can set to join a lottery.
 GM.Config.minlotterycost                = 30
 -- Money packets will get removed if they don't get picked up after a while. Set to 0 to disable.
@@ -251,7 +245,7 @@ GM.Config.normalsalary                  = 45
 -- npckillpay - Sets the money given for each NPC kill.
 GM.Config.npckillpay                    = 10
 -- paydelay - Sets how long it takes before people get salary.
-GM.Config.paydelay                      = 160
+GM.Config.paydelay                      = 60 * 10
 -- pocketitems - Sets the amount of objects the pocket can carry.
 GM.Config.pocketitems                   = 10
 -- pricecap - The maximum price of items (using /price).
@@ -265,7 +259,7 @@ GM.Config.quakechance                   = 4000
 -- respawntime - Minimum amount of seconds a player has to wait before respawning.
 GM.Config.respawntime                   = 1
 -- changejobtime - Minimum amount of seconds a player has to wait before changing job.
-GM.Config.changejobtime                 = 25
+GM.Config.changejobtime                 = 5
 -- runspeed - Sets the max running speed.
 GM.Config.runspeed                      = 240
 -- runspeed - Sets the max running speed for CP teams.
@@ -279,11 +273,7 @@ GM.Config.shipmentspawntime             = 10
 -- startinghealth - the health when you spawn.
 GM.Config.startinghealth                = 100
 -- startingmoney - your wallet when you join for the first time.
-GM.Config.startingmoney                 = 30000
--- stunstickdamage - amount of damage the stunstick will do to entities.
--- When between 0 and 1, the damage is relative, where 1 takes the entire health of the entity.
--- When above 1, the damage is absolute
-GM.Config.stunstickdamage               = 1000
+GM.Config.startingmoney                 = 1000
 -- vehiclecost - Sets the cost of a vehicle (To own it).
 GM.Config.vehiclecost                   = 40
 -- wallettaxmax - Maximum percentage of tax to be paid.
@@ -333,11 +323,8 @@ GM.Config.DarkRPSkin = "DarkRP"
 GM.Config.currency = "£"
 GM.Config.currencyThousandSeparator = ","
 GM.Config.chatCommandPrefix = "/"
-GM.Config.F1MenuHelpPage = "https://darkrp.miraheze.org/wiki/Main_Page"
-GM.Config.F1MenuHelpPageTitle = "DarkRP Wiki"
-
--- The sound that plays when you get a DarkRP notification
-GM.Config.notificationSound = "buttons/lightswitch2.wav"
+GM.Config.F1MenuHelpPage = "http://wiki.darkrp.com/index.php/Main_Page"
+GM.Config.F1MenuHelpPageTitle = "Wiki page"
 
 -- Put Steam ID's and ranks in this list, and the players will have that rank when they join.
 GM.Config.DefaultPlayerGroups = {
@@ -347,12 +334,13 @@ GM.Config.DefaultPlayerGroups = {
 
 -- Custom modules in this addon that are disabled.
 GM.Config.DisabledCustomModules = {
-    ["hudreplacement"] = false,
-    ["extraf4tab"] = false,
+       ["hudreplacement"] = false,
+       ["extraf4tab"] = false,
 }
 
 -- The list of weapons that players are not allowed to drop. Items set to true are not allowed to be dropped.
 GM.Config.DisallowDrop = {
+	["vwar_reality_bending_swep"] = true,
 	["snowball_thrower_nodamage"] = true,
 	["csgo_flip_black_laminate"] = true,
 	["unclen8_deagold"] = true,
@@ -612,10 +600,7 @@ GM.Config.DisallowDrop = {
 -- The list of weapons people spawn with.
 GM.Config.DefaultWeapons = {
     "keys",
-	"weapon_physcannon",
-	"gmod_camera",
-	"gmod_tool",
-	"weapon_physgun",
+    "weapon_physcannon",
 }
 
 -- Override categories.
@@ -737,6 +722,14 @@ GM.Config.PocketBlacklist = {
 -- The latter takes GM.NoLicense weapons as legal (see licenseweapons.lua).
 -- The format of this config is similar to GM.Config.DisallowDrop.
 GM.Config.noStripWeapons = {
+	["weaponchecker_v2"] = true,
+	["vwar_animations"] = true,
+	["vwar_reality_bending_swep"] = true,
+	["vwar_scp_personnel_tablet"] = true,
+	["vwar_scp_interrogate"] = true,
+	["salute"] = true,
+	["dradio"] = true,
+	["vclipboard"] = true,
 	["weapon_hexshield"] = true,
 	["mgs_pickaxe"] = true,
 	["swm_chopping_axe"] = true,
@@ -748,6 +741,7 @@ GM.Config.noStripWeapons = {
 	["weapon_vape_juicy"] = true,
 	["weapon_vape_mega"] = true,
 	["snowball_thrower_nodamage"] = true,
+	["vwar_scp_breach"] = true,
 	["blink"] = true,
 	["keys"] = true,
 	["pocket"] = true,
@@ -791,6 +785,22 @@ GM.Config.noStripWeapons = {
 	["weapon_popcorn_spam"] = true,
 	["wowozela"] = true,
 	["weapon_spraymhs"] = true,
+	["weapon_flashlight"] = true,
+	["vwar_scp_anomaly_containment_beam"] = true,
+	["vwar_scp096_bucketswep"] = true,
+	["vwar_scp_repair_tool"] = true,
+	["vwar_scp_technician_tool"] = true,
+	["vwar_scp_kant_counter"] = true,
+	["vwar_scp_syringe_contraband"] = true,
+	["vwar_scp_syringe"] = true,
+	["vwar_field_kit"] = true,
+	["vwar_first_aid_kit"] = true,
+	["vwar_id_card"] = true,
+	["vwar_id_card_spy"] = true,
+	["vwar_id_card_spy_team"] = true,
+	["vwar_weapon_stripper"] = true,
+	["vwar_tactical_tablet"] = true,
+	["vwar_voice_amplifier"] = true,
 	-- cuffs
 	["weapon_cuff_elastic"] = true,
 	["weapon_cuff_plastic"] = true,
@@ -802,200 +812,6 @@ GM.Config.noStripWeapons = {
 	["weapon_handcuffed"] = true,
 	["weapon_leash_elastic"] = true,
 	["weapon_leash_rope"] = true,
-	-- knives
-	["csgo_flip_black_laminate"] = true,
-	["csgo_gut_damascus"] = true,
-	["csgo_flip_boreal"] = true,
-	["csgo_butterfly_rustcoat"] = true,
-	["csgo_gut"] = true,
-	["csgo_huntsman_bluesteel"] = true,
-	["csgo_falchion_tiger"] = true,
-	["csgo_gut_case"] = true,
-	["csgo_bayonet_ultraviolet"] = true,
-	["csgo_m9_marblefade"] = true,
-	["csgo_karambit"] = true,
-	["csgo_butterfly_ddpat"] = true,
-	["csgo_falchion_fade"] = true,
-	["csgo_gut_night"] = true,
-	["csgo_butterfly_night"] = true,
-	["csgo_flip_crimsonwebs"] = true,
-	["csgo_bayonet_fade"] = true,
-	["csgo_bayonet_ddpat"] = true,
-	["csgo_huntsman_case"] = true,
-	["csgo_daggers_damascus"] = true,
-	["csgo_huntsman_damascus"] = true,
-	["csgo_butterfly"] = true,
-	["csgo_m9_ultraviolet"] = true,
-	["csgo_bayonet_crimsonwebs"] = true,
-	["csgo_flip_damascus"] = true,
-	["csgo_flip_case"] = true,
-	["csgo_bowie_ultraviolet"] = true,
-	["csgo_bayonet_slaughter"] = true,
-	["csgo_flip_fade"] = true,
-	["csgo_karambit_night"] = true,
-	["csgo_bowie_damascus"] = true,
-	["csgo_falchion_marblefade"] = true,
-	["csgo_falchion_bluesteel"] = true,
-	["csgo_daggers_case"] = true,
-	["csgo_bowie_night"] = true,
-	["csgo_daggers_marblefade"] = true,
-	["csgo_bowie_marblefade"] = true,
-	["csgo_bowie_crimsonwebs"] = true,
-	["csgo_huntsman_rustcoat"] = true,
-	["csgo_m9"] = true,
-	["csgo_bayonet_bluesteel"] = true,
-	["csgo_m9_crimsonwebs"] = true,
-	["csgo_falchion_case"] = true,
-	["csgo_falchion_night"] = true,
-	["csgo_butterfly_fade"] = true,
-	["csgo_bayonet_night"] = true,
-	["csgo_daggers_ultraviolet"] = true,
-	["csgo_bayonet_damascus"] = true,
-	["csgo_bowie_case"] = true,
-	["csgo_bayonet_marblefade"] = true,
-	["csgo_default_golden"] = true,
-	["csgo_gut_tiger"] = true,
-	["csgo_huntsman_marblefade"] = true,
-	["csgo_bayonet_tiger"] = true,
-	["csgo_karambit_crimsonwebs"] = true,
-	["csgo_karambit_ddpat"] = true,
-	["csgo_m9_rustcoat"] = true,
-	["csgo_daggers_boreal"] = true,
-	["csgo_bowie_slaughter"] = true,
-	["csgo_bayonet_rustcoat"] = true,
-	["csgo_gut_rustcoat"] = true,
-	["csgo_butterfly_damascus"] = true,
-	["csgo_gut_marblefade"] = true,
-	["csgo_daggers_greyscaled"] = true,
-	["csgo_daggers_fade"] = true,
-	["csgo_flip_tiger"] = true,
-	["csgo_huntsman_slaughter"] = true,
-	["csgo_butterfly_tiger"] = true,
-	["csgo_bowie_tiger"] = true,
-	["csgo_m9_slaughter"] = true,
-	["csgo_gut_boreal"] = true,
-	["csgo_cssource"] = true,
-	["csgo_falchion_slaughter"] = true,
-	["csgo_default_knife"] = true,
-	["csgo_gut_slaughter"] = true,
-	["csgo_flip_night"] = true,
-	["csgo_daggers_night"] = true,
-	["csgo_falchion_crimsonwebs"] = true,
-	["csgo_falchion_boreal"] = true,
-	["csgo_default_t"] = true,
-	["csgo_butterfly_boreal"] = true,
-	["csgo_falchion_ultraviolet"] = true,
-	["csgo_gut_bluesteel"] = true,
-	["csgo_m9_bluesteel"] = true,
-	["csgo_huntsman_fade"] = true,
-	["csgo_m9_tiger"] = true,
-	["csgo_default_t_golden"] = true,
-	["csgo_flip_ultraviolet"] = true,
-	["csgo_karambit_damascus"] = true,
-	["csgo_flip_slaughter"] = true,
-	["csgo_bayonet_case"] = true,
-	["csgo_gut_crimsonwebs"] = true,
-	["csgo_bowie_bluesteel"] = true,
-	["csgo_karambit_case"] = true,
-	["csgo_huntsman_boreal"] = true,
-	["csgo_karambit_slaughter"] = true,
-	["csgo_bowie"] = true,
-	["csgo_daggers_slaughter"] = true,
-	["csgo_bowie_boreal"] = true,
-	["csgo_karambit_rustcoat"] = true,
-	["csgo_falchion_rustcoat"] = true,
-	["csgo_flip_rustcoat"] = true,
-	["csgo_butterfly_crimsonwebs"] = true,
-	["csgo_gut_fade"] = true,
-	["csgo_huntsman_crimsonwebs"] = true,
-	["csgo_butterfly_slaughter"] = true,
-	["csgo_falchion_damascus"] = true,
-	["csgo_daggers_tiger"] = true,
-	["csgo_daggers_ddpat"] = true,
-	["csgo_flip_ddpat"] = true,
-	["csgo_falchion_ddpat"] = true,
-	["csgo_flip"] = true,
-	["csgo_m9_damascus"] = true,
-	["csgo_karambit_marblefade"] = true,
-	["csgo_m9_fade"] = true,
-	["csgo_karambit_boreal"] = true,
-	["csgo_huntsman_tiger"] = true,
-	["csgo_huntsman_ddpat"] = true,
-	["csgo_daggers_rustcoat"] = true,
-	["csgo_bowie_rustcoat"] = true,
-	["csgo_flip_marblefade"] = true,
-	["csgo_huntsman"] = true,
-	["csgo_gut_ddpat"] = true,
-	["csgo_m9_case"] = true,
-	["csgo_bayonet_boreal"] = true,
-	["csgo_gut_ultraviolet"] = true,
-	["csgo_karambit_fade"] = true,
-	["csgo_daggers_webs"] = true,
-	["csgo_huntsman_ultraviolet"] = true,
-	["csgo_bowie_fade"] = true,
-	["csgo_huntsman_night"] = true,
-	["csgo_bowie_ddpat"] = true,
-	["csgo_m9_ddpat"] = true,
-	["csgo_butterfly_marblefade"] = true,
-	["csgo_flip_bluesteel"] = true,
-	["csgo_karambit_ultraviolet"] = true,
-	["csgo_m9_night"] = true,
-	["csgo_karambit_bluesteel"] = true,
-	["csgo_bayonet"] = true,
-	["csgo_butterfly_case"] = true,
-	["csgo_butterfly_bluesteel"] = true,
-	["csgo_m9_boreal"] = true,
-	["csgo_daggers"] = true,
-	["csgo_karambit_tiger"] = true,
-	["csgo_daggers_bluesteel"] = true,
-	["csgo_falchion"] = true,
-	["csgo_butterfly_ultraviolet"] = true,
-	
-	// Custom knife skins
-	["csgo_karambit_creamy"] = true,
-	["csgo_karambit_sticker"] = true,
-	["csgo_karambit_space"] = true,
-	["csgo_karambit_modern"] = true,
-	["csgo_karambit_lava"] = true,
-	["csgo_karambit_doppler"] = true,
-	["csgo_karambit_burning"] = true,
-	["csgo_karambit_bluetiger"] = true,
-	["csgo_karambit_rainbow"] = true,
-	["csgo_karambit_aurora"] = true,
-	["csgo_karambit_wankish"] = true,
-	["csgo_karambit_theorem"] = true,
-	["csgo_karambit_template"] = true,
-	
-	// Custom skins 2
-	["csgo_bayonet_autotronic"] = true,
-	["csgo_bayonet_bright_water"] = true,
-	["csgo_bayonet_freehand"] = true,
-	["csgo_bayonet_lore"] = true,
-	["csgo_bowie_bright_water"] = true,
-	["csgo_bowie_freehand"] = true,
-	["csgo_butterfly_bright_water"] = true,
-	["csgo_butterfly_freehand"] = true,
-	["csgo_falchion_bright_water"] = true,
-	["csgo_falchion_freehand"] = true,
-	["csgo_flip_autotronic"] = true,
-	["csgo_flip_bright_water"] = true,
-	["csgo_flip_freehand"] = true,
-	["csgo_flip_lore"] = true,
-	["csgo_gut_autotronic"] = true,
-	["csgo_gut_bright_water"] = true,
-	["csgo_gut_freehand"] = true,
-	["csgo_gut_lore"] = true,
-	["csgo_huntsman_bright_water"] = true,
-	["csgo_huntsman_freehand"] = true,
-	["csgo_karambit_autotronic"] = true,
-	["csgo_karambit_bright_water"] = true,
-	["csgo_karambit_freehand"] = true,
-	["csgo_karambit_lore"] = true,
-	["csgo_m9_autotronic"] = true,
-	["csgo_m9_bright_water"] = true,
-	["csgo_m9_freehand"] = true,
-	["csgo_m9_lore"] = true,
-	["csgo_daggers_bright_water"] = true,
 }
 
 -- The entities listed here will not be removed when a player changes their job.
