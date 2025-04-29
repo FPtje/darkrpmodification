@@ -69,6 +69,15 @@ local function AddDoorGroups()
         TEAM_MTF_R21_IG_COMMANDER
     )
 
+    AddDoorGroup("Department of External Affairs",
+        TEAM_DIRECTOR_OF_EXTERNAL_AFFAIRS,
+        TEAM_EXTERNAL_AFFAIRS_AGENT,
+        TEAM_DEPUTY_DIRECTOR_OF_EXTERNAL_AFFAIRS,
+        TEAM_EXTERNAL_AFFAIRS_AGENCY_MANAGER,
+        TEAM_EXTERNAL_AFFAIRS_OPERATIVE,
+        TEAM_EXTERNAL_AFFAIRS_SENIOR_AGENT,
+        TEAM_EXTERNAL_AFFAIRS_SPECIAL_AGENT
+    )
 
     AddDoorGroup("Global Occult Coalition Command",
         TEAM_UNGOC_COMMANDER,
