@@ -28,13 +28,13 @@ AddCustomShipment("Glock p80", "models/weapons/tfa_ins2/w_glock_p80.mdl", "vguns
 AddCustomShipment("UZI", "models/weapons/w_uzi_imi.mdl", "vguns_uzi", 2000, 10, true, 200, false, {TEAM_GUN, TEAM_HVYGUN})
 
 --Assault Rifles
-AddCustomShipment("CZ-805", "models/weapons/tfa_ins2/w_cz805.mdl", "vguns_cz805", 16000, 10, true, 1500, false, {TEAM_HVYGUN})
-AddCustomShipment("AR-15", "models/weapons/tfa_ins2/w_cw_ar15.mdl", "vguns_ar15", 14000, 10, true, 1300, false, {TEAM_HVYGUN})
+AddCustomShipment("CZ-805", "models/weapons/tfa_ins2/w_cz805.mdl", "vguns_cz805", 14000, 10, true, 1500, false, {TEAM_HVYGUN})
+AddCustomShipment("AR-15", "models/weapons/tfa_ins2/w_cw_ar15.mdl", "vguns_ar15", 12000, 10, true, 1300, false, {TEAM_HVYGUN})
 AddCustomShipment("AK-74U", "models/weapons/tfa_cod/mwr/w_ak74u.mdl", "vguns_ak74u", 11000, 10, true, 1300, false, {TEAM_HVYGUN})
-AddCustomShipment("MP-443", "models/weapons/tfa_ins2/mp443/w_mp443.mdl", "vguns_mp443", 2000, 10, true, 1300, false, {TEAM_GUN, TEAM_HVYGUN})
-AddCustomShipment("RPK 16", "models/weapons/w_rpk12.mdl", "vguns_rpk16", 40000, 10, true, 3500, false, {TEAM_HVYGUN})
-AddCustomShipment("MK-18 Mod", "models/weapons/w_mk12.mdl", "vguns_mk18mod", 40000, 10, true, 3500, false, {TEAM_HVYGUN})
-AddCustomShipment("UMP 45", "models/weapons/tfa_ins2/w_ump45.mdl", "vguns_ump", 40000, 10, true, 3500, false, {TEAM_HVYGUN})
+AddCustomShipment("MP-443", "models/weapons/tfa_ins2/mp443/w_mp443.mdl", "vguns_mp443", 2000, 10, true, 220, false, {TEAM_GUN, TEAM_HVYGUN})
+AddCustomShipment("RPK 16", "models/weapons/w_rpk12.mdl", "vguns_rpk16", 34000, 10, true, 3500, false, {TEAM_HVYGUN})
+AddCustomShipment("MK-18 Mod", "models/weapons/w_mk12.mdl", "vguns_mk18mod", 34000, 10, true, 3500, false, {TEAM_HVYGUN})
+AddCustomShipment("UMP 45", "models/weapons/tfa_ins2/w_ump45.mdl", "vguns_ump", 34000, 10, true, 3500, false, {TEAM_HVYGUN})
 
 -- Rare items
 AddCustomShipment("Hailstorm Energy Pistol", "models/weapons/hailstorm_rev/w_iw_hailstorm.mdl", "vguns_hailstorm", 40000, 10, true, 5000, false, {TEAM_MCD})
