@@ -66,7 +66,8 @@ local function AddDoorGroups()
         TEAM_MTF_R21_IG_MARKSMAN,
         TEAM_MTF_R21_IG_AUTORIFLEMAN,
         TEAM_MTF_R21_IG_CO,
-        TEAM_MTF_R21_IG_COMMANDER
+        TEAM_MTF_R21_IG_COMMANDER,
+        TEAM_MTF_NU7_HAMMER_DOWN_JUGGERNAUT
     )
 
     AddDoorGroup("Department of External Affairs",
