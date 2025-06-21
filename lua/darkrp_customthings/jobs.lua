@@ -371,6 +371,7 @@ The ERT will be deployed to the facility when a catastrophic breach cannot be ha
     hasLicense = false,
     candemote = false,
     VWarTeam = "foundation",
+    JobNickConfig = "ERT Operative",
     VWarGasMask = 3,
     VWarImmuneToNeedles = true,
     VWarElectrician = true,
