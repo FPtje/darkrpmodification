@@ -177,10 +177,10 @@ function SWEP:SecondaryAttack()
 	self.ThrowVect = Vector(0,0,-14)
 end
 
-function SWEP:Holster()
-	if self:GetNextPrimaryFire() > CurTime() then return false end
-	return true
-end
+-- function SWEP:Holster()
+-- 	if self:GetNextPrimaryFire() > CurTime() then return false end
+-- 	return true
+-- end
 
 function SWEP:CustomAmmoDisplay()
 	self.AmmoDisplay = self.AmmoDisplay or {}
