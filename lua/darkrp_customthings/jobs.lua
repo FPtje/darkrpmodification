@@ -382,6 +382,7 @@ The ERT will be deployed to the facility when a catastrophic breach cannot be ha
     VWarERT = true,
     PermaScramble = true,
     hidden = true,
+    vjeMaxArmor = 200,
 })
 
 /////////////////
