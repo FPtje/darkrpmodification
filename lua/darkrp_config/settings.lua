@@ -728,7 +728,6 @@ GM.Config.noStripWeapons = {
 	["vwar_scp_personnel_tablet"] = true,
 	["vwar_scp_interrogate"] = true,
 	["salute"] = true,
-	["dradio"] = true,
 	["vclipboard"] = true,
 	["weapon_hexshield"] = true,
 	["mgs_pickaxe"] = true,
