@@ -35,3 +35,17 @@ GAMEMODE.CivilProtection = {
 Jobs that are hitmen (enables the hitman menu)
 ---------------------------------------------------------------------------]]
 DarkRP.addHitmanTeam(TEAM_MOB)
+TEAM_EXAMPLE = DarkRP.createJob("Example Job", {
+	color = Color(30, 100, 160, 255),
+	model = {"models/aussiwozzi/phase1clones/212th/arf_trooper.mdl"},
+	description = [[Example description]],
+	weapons = {},
+	command = "examplejobcommand",
+	max = 4,
+	salary = 100,
+	admin = 0,
+	vote = false,
+	hasLicense = false,
+	candemote = false,
+	category = "Citizen",
+})
