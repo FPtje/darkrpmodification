@@ -15,7 +15,20 @@ https://darkrp.miraheze.org/wiki/DarkRP:CustomJobFields
 
 Add your custom jobs under the following line:
 ---------------------------------------------------------------------------]]
-
+12 = DarkRP.createJob("Полицейский", {
+	color = Color(30, 100, 160, 255),
+	model = {"models/player/riot.mdl"},
+	description = [[Обычный полицейский]],
+	weapons = {"weapon_pumpshotgun2", "weapon_p2282", "arrest_stick", "keys"},
+	command = "",
+	max = 7,
+	salary = 120,
+	admin = 0,
+	vote = false,
+	hasLicense = true,
+	candemote = true,
+	category = "Полиция",
+})
 
 
 --[[---------------------------------------------------------------------------
